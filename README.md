@@ -59,6 +59,7 @@ I don't specialize. I build full systems across domains — from DSP biquad filt
 | [**LuciferAI**](https://github.com/GareBear99/Lucid-Terminal) | Self-healing local AI assistant. FixNet collaborative fix learning, 11-grade quality system, auto-bootstraps, zero install. |
 | [**ARC-Core**](https://github.com/GareBear99/ARC-Core) | Real-time signal intelligence — detects emerging events, trends, and relationships across global data streams. |
 | [**ARC Spatial Engine**](https://github.com/GareBear99/A-real-time-spatial-signal-intelligence-engine) | RF/WiFi signal mapping across physical space. Propagation physics, sensor fusion, geospatial field rendering. |
+| [**BotFortress**](https://botfortress.net) | Free Discord bot hosting on Cloudflare's edge. 3 bots free forever, <10ms response, 300+ global locations. $29 Pro. [**Live.**](https://botfortress.net) |
 
 ---
 
@@ -68,12 +69,12 @@ I don't specialize. I build full systems across domains — from DSP biquad filt
 |---------|-------------|
 | [**ADMENSION**](https://github.com/GareBear99/ADMENSION) | Ad revenue platform — link shortener that pays users automatically. 23 ad units, anti-fraud IVT detection, automated monthly payouts. Live. |
 | [**VALLIS**](https://github.com/GareBear99/ADMENSION) | DeFi liquidity pool infrastructure. CFAMM engine, Anunnaki Vault, EVE AI chatbot, 45+ page whitepaper. |
-| [**EdgeStack Currency**](https://github.com/GareBear99) | Event-sourced multi-currency execution engine. SSOT ledger, EV gating, risk-before-return. Institutional architecture. |
-| [**Harvest**](https://github.com/GareBear99) | Production crypto trading system v2.0. 90-day backtest engine, paper trading validation, live trader. |
-| [**GBot**](https://github.com/GareBear99) | Multi-strategy crypto bot. 85.7% win rate backtested, 2.63 profit factor on ETH/USDT. |
-| [**One Shot**](https://github.com/GareBear99) | Binary options ML engine. Adaptive model, 256 trades/day capacity, MetaMask integration, 3-hearts risk system. |
-| [**Broke Bot**](https://github.com/GareBear99) | TRON funding rate arbitrage. Extreme funding capture, tight risk controls, Binance Futures. |
-| [**Charm Extension Bot**](https://github.com/GareBear99) | Autonomous ETH↔USDC spot bot on Base/Uniswap v3. Runs on $12 capital. |
+| [**EdgeStack Currency**](https://github.com/GareBear99) | Event-sourced multi-currency execution engine. SSOT ledger, EV gating, risk-before-return. Institutional architecture. *(private)* |
+| [**Harvest**](https://github.com/GareBear99) | Production crypto trading system v2.0. 90-day backtest engine, paper trading validation, live trader. *(private)* |
+| [**GBot**](https://github.com/GareBear99) | Multi-strategy crypto bot. 85.7% win rate backtested, 2.63 profit factor on ETH/USDT. *(private)* |
+| [**One Shot**](https://github.com/GareBear99) | Binary options ML engine. Adaptive model, 256 trades/day capacity, MetaMask integration, 3-hearts risk system. *(private)* |
+| [**Broke Bot**](https://github.com/GareBear99) | TRON funding rate arbitrage. Extreme funding capture, tight risk controls, Binance Futures. *(private)* |
+| [**Charm Extension Bot**](https://github.com/GareBear99) | Autonomous ETH↔USDC spot bot on Base/Uniswap v3. Runs on $12 capital. *(private)* |
 | [**RG-Command-Center**](https://github.com/GareBear99/RG-Command-Center) | Canadian real estate intelligence platform. Deal scoring, GPS maps, CRM, commission tracking, multi-source data pipeline. |
 
 ---
@@ -88,7 +89,6 @@ I don't specialize. I build full systems across domains — from DSP biquad filt
 | [**VSP-CWE**](https://github.com/GareBear99/Virtual-Simulated-Physics-Capacity-Weighted-Engine) | Virtual Simulated Physics Capacity-Weighted Engine — living computational substrate where geometry = data, mass = authority, movement = cost. Geometry Wars meets distributed systems theory. |
 | [**Proto-Synth Grid Engine**](https://github.com/GareBear99/Proto-Synth_Grid_Engine) | Blueprint-driven simulation shell. Space as filesystem, entities as autonomous executors. |
 | [**Neo-VECTR Solar Sim**](https://github.com/GareBear99/Neo-VECTR_Solar_Sim_NASA_Standard) | NASA-standard astronomy simulator. Deterministic universe graph, catalog-driven truth packs, galaxy-to-planet navigation. |
-| [**BotFortress**](https://botfortress.net) | Free Discord bot hosting on Cloudflare's edge. 3 bots free forever, <10ms response, 300+ global locations. $29 Pro. [**Live.**](https://botfortress.net) |
 
 ---
 
@@ -99,7 +99,6 @@ I don't specialize. I build full systems across domains — from DSP biquad filt
 | [**Robotics Master Controller**](https://github.com/GareBear99/Robotics-Master-Controller) | Robotics research hub — prosthetics, artificial muscles, exoskeletons, precision fabrication. DARPA-level documentation. |
 | [**AGI Photon-Quantum Computing**](https://github.com/GareBear99/AGI_Photon-Quantum-Computing) | Photon AGI thinking core + SSOT Bot Lab. Production dossier v7. Photonic computing theory with interactive binary cell simulation. |
 | [**TT-101 Handbook**](https://github.com/GareBear99/TT-101_Handbook) | Continuity handbook for preserving knowledge across time. |
-| [**Neolution**](https://github.com/GareBear99/Neolution) | Neo-VECTR ∞ — neon rhythm engine targeting Steam. |
 
 ---
 
@@ -115,7 +114,7 @@ I don't specialize. I build full systems across domains — from DSP biquad filt
 
 ```
 340 commits · 41 repositories · March 2026
-687 contributions · last 6 months
+710 contributions · last 12 months
 37 new repositories · March 2026 alone
 4-5 months · everything above · solo
 ```
@@ -123,8 +122,9 @@ I don't specialize. I build full systems across domains — from DSP biquad filt
 ---
 
 ## Contact
-- **Email1:** gdoman99@gmail.com
-- **Email2:** neovectr.inc@gmail.com
+
+- **Resume:** [Gary_Richard_Doman_Resume.pdf](https://github.com/GareBear99/Portfolio/raw/main/Gary_Richard_Doman_Resume.pdf)
+- **Email:** gdoman99@gmail.com · neovectr.inc@gmail.com
 - **GitHub:** [GareBear99](https://github.com/GareBear99)
 - **BotFortress:** [botfortress.net](https://botfortress.net)
 - **ADMENSION:** [garebear99.github.io/ADMENSION](https://garebear99.github.io/ADMENSION/)
