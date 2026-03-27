@@ -115,7 +115,7 @@ I don't specialize. I build full systems across domains — from DSP biquad filt
 
 ```
 340 commits · 41 repositories · March 2026
-687 contributions · last 12 months
+687 contributions · last 6 months
 37 new repositories · March 2026 alone
 4-5 months · everything above · solo
 ```
