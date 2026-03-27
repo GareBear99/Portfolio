@@ -123,8 +123,8 @@ I don't specialize. I build full systems across domains — from DSP biquad filt
 ---
 
 ## Contact
-
-- **Email:** neovectr.inc@gmail.com
+- **Email1:** gdoman99@gmail.com
+- **Email2:** neovectr.inc@gmail.com
 - **GitHub:** [GareBear99](https://github.com/GareBear99)
 - **BotFortress:** [botfortress.net](https://botfortress.net)
 - **ADMENSION:** [garebear99.github.io/ADMENSION](https://garebear99.github.io/ADMENSION/)
