@@ -59,7 +59,7 @@ I don't specialize. I build full systems across domains — from DSP biquad filt
 | [**LuciferAI**](https://github.com/GareBear99/Lucid-Terminal) | Self-healing local AI assistant. FixNet collaborative fix learning, 11-grade quality system, auto-bootstraps, zero install. |
 | [**ARC-Core**](https://github.com/GareBear99/ARC-Core) | Real-time signal intelligence — detects emerging events, trends, and relationships across global data streams. |
 | [**ARC Spatial Engine**](https://github.com/GareBear99/A-real-time-spatial-signal-intelligence-engine) | RF/WiFi signal mapping across physical space. Propagation physics, sensor fusion, geospatial field rendering. |
-| [**BotFortress**](https://botfortress.net) | Free Discord bot hosting on Cloudflare's edge. 3 bots free forever, <10ms response, 300+ global locations. $29 Pro. [**Live.**](https://botfortress.net) |
+| [**BotFortress**](https://botfortress.net) | Free Discord bot hosting on Cloudflare's edge. 3 bots free forever, <10ms response, 300+ global locations. $3 Bots. [**Live.**](https://botfortress.net) |
 
 ---
 
