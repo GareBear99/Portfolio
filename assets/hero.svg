@@ -1,0 +1,45 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.45" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="140" y1="40" x2="980" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="320" rx="28" fill="url(#bg)"/>
+  <g opacity="0.28" filter="url(#soft)">
+    <path d="M48 236C126 194 189 151 280 146C379 141 438 222 548 224C661 226 713 153 814 138C926 121 1005 182 1128 168C1174 163 1214 151 1240 140" stroke="url(#glow)" stroke-width="4"/>
+    <path d="M40 254C132 235 203 93 323 101C413 107 480 257 612 256C721 255 777 110 882 95C996 80 1078 208 1238 204" stroke="url(#glow)" stroke-width="3"/>
+    <circle cx="200" cy="108" r="60" stroke="#22D3EE" stroke-opacity="0.45"/>
+    <circle cx="1010" cy="215" r="84" stroke="#A855F7" stroke-opacity="0.35"/>
+    <circle cx="1135" cy="90" r="42" stroke="#F59E0B" stroke-opacity="0.45"/>
+  </g>
+
+  <g>
+    <text x="72" y="120" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Gary Doman // GareBear99</text>
+    <text x="72" y="160" fill="#C7D2FE" font-family="Arial, Helvetica, sans-serif" font-size="22">Deterministic systems · real-time DSP · simulation engines · AI architecture</text>
+    <text x="72" y="205" fill="#93C5FD" font-family="Arial, Helvetica, sans-serif" font-size="18">Building products that are low-weight, validated, and production-minded.</text>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="72" y="238" width="150" height="34" rx="17" fill="#111827" stroke="#22D3EE"/>
+    <text x="96" y="260" fill="#E0F2FE" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">ARC / Lucid</text>
+    <rect x="238" y="238" width="138" height="34" rx="17" fill="#111827" stroke="#A855F7"/>
+    <text x="262" y="260" fill="#F3E8FF" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">FreeEQ8</text>
+    <rect x="392" y="238" width="176" height="34" rx="17" fill="#111827" stroke="#F59E0B"/>
+    <text x="416" y="260" fill="#FFF7ED" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Seeded Universe</text>
+  </g>
+</svg>
