@@ -22,7 +22,7 @@ movement = cost      intelligence = constrained by reality
 
 **Open to:** Systems Engineering · DSP / Audio Plugin Development · Simulation Engine Architecture · Runtime / AI Infrastructure
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GareBear99/GareBear99/main/assets/banner.svg" width="100%" alt="Gary Doman live banner" />
+  <img src="https://raw.githubusercontent.com/GareBear99/GareBear99/main/assets/Hero.svg" width="100%" alt="Gary Doman live banner" />
 </p>
 </div>
 
