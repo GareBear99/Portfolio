@@ -18,9 +18,7 @@
 *Audio DSP · Quant Finance · AI Infrastructure · Web3 · Physics Simulation · Robotics · Game Development*
 
 **Open to:** Systems Engineering · DSP / Audio Plugin Development · Simulation Engine Architecture · Runtime / AI Infrastructure
-<p align="center">
-  <img src="https://raw.githubusercontent.com/GareBear99/GareBear99/main/assets/hero.svg" width="100%" alt="Gary Doman live banner" />
-</p>
+
 </div>
 
 ---
