@@ -1,10 +1,6 @@
 
 <div align="center">
 
-```text
-geometry = data      mass = capacity
-movement = cost      intelligence = constrained by reality
-```
 
 [![GitHub](https://img.shields.io/badge/GitHub-GareBear99-181717?style=flat&logo=github)](https://github.com/GareBear99)
 [![BotFortress](https://img.shields.io/badge/BotFortress-Live-00FFFF?style=flat)](https://botfortress.net)
@@ -16,7 +12,9 @@ movement = cost      intelligence = constrained by reality
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-ff5f5f?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/REPLACE_ME)
 
 **Independent systems builder · Williams Lake, BC · Canada**
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GareBear99/GareBear99/main/assets/hero.svg" width="100%" alt="Gary Doman live banner" />
+</p>
 *Audio DSP · Quant Finance · AI Infrastructure · Web3 · Physics Simulation · Robotics · Game Development*
 
 **Open to:** Systems Engineering · DSP / Audio Plugin Development · Simulation Engine Architecture · Runtime / AI Infrastructure
