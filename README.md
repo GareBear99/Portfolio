@@ -63,8 +63,8 @@ This portfolio acts as the central public authority node for the GareBear99 ecos
 - [**RiftAscent**](https://github.com/GareBear99/RiftAscent) — deterministic game engine
 - [**BotFortress**](https://botfortress.net) — infrastructure / deployment
 - [**RAG Command Center**](https://github.com/GareBear99/RAG-Command-Center) — real estate intelligence
+- [**Proto-Synth Grid Engine**](https://github.com/GareBear99/Proto-Synth_Grid_Engine) - Blueprint-driven simulation shell 
 - [**Seeded Universe Recreation Engine**](https://github.com/GareBear99/Seeded-Universe-Recreation-Engine) — seed-based universe simulation
-- [**Proto-Synth Grid Engine**](https://github.com/GareBear99/Proto-Synth_Grid_Engine) - Blueprint-driven simulation shell where space behaves like a filesystem and entities act as bounded autonomous executors.
 
 ---
 
