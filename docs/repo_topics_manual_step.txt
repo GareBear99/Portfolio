@@ -1,0 +1,18 @@
+GITHUB TOPICS TO ADD MANUALLY
+
+GitHub does not allow repository topics to be set from repository files alone.
+
+Recommended topics:
+systems-engineering
+audio-dsp
+juce
+c-plus-plus
+javascript
+simulation-engine
+ai-infrastructure
+deterministic-systems
+runtime-architecture
+portfolio
+plugin-development
+robotics
+quant-finance

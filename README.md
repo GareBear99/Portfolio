@@ -12,10 +12,15 @@ movement = cost      intelligence = constrained by reality
 [![ADMENSION](https://img.shields.io/badge/ADMENSION-Live-22c55e?style=flat)](https://garebear99.github.io/ADMENSION/)
 [![TizWildin Hub](https://img.shields.io/badge/TizWildin_Hub-Live-6c7bbd?style=flat)](https://garebear99.github.io/TizWildinEntertainmentHUB/)
 [![Neolution](https://img.shields.io/badge/Neolution-Play_Now-eab308?style=flat)](https://garebear99.github.io/Neolution/)
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub_Sponsors-Enabled-ea4aaa?style=flat&logo=githubsponsors)](https://github.com/sponsors/GareBear99)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-Support-FFDD00?style=flat&logo=buymeacoffee&logoColor=000000)](https://www.buymeacoffee.com/REPLACE_ME)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-ff5f5f?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/REPLACE_ME)
 
 **Independent systems builder · Williams Lake, BC · Canada**
 
 *Audio DSP · Quant Finance · AI Infrastructure · Web3 · Physics Simulation · Robotics · Game Development*
+
+**Open to:** Systems Engineering · DSP / Audio Plugin Development · Simulation Engine Architecture · Runtime / AI Infrastructure
 
 </div>
 
@@ -49,17 +54,56 @@ All major projects are built around reproducibility, structured validation, and 
 
 ---
 
-## What I Build
+## Core Systems
 
-I build full systems across domains: real-time audio plugins, deterministic game engines, AI runtime tools, finance infrastructure, web platforms, simulation systems, and robotics research frameworks.
+This portfolio acts as the central public authority node for the GareBear99 ecosystem.
 
-This portfolio is designed to show both execution breadth and architectural consistency.
+- [**FreeEQ8**](https://github.com/GareBear99/FreeEQ8) — audio DSP / JUCE
+- [**ARC-Core**](https://github.com/GareBear99/ARC-Core) — intelligence systems
+- [**RiftAscent**](https://github.com/GareBear99/RiftAscent) — deterministic game engine
+- [**BotFortress**](https://botfortress.net) — infrastructure / deployment
+- [**RAG Command Center**](https://github.com/GareBear99/RAG-Command-Center) — real estate intelligence
+- [**Neo-VECTR Solar Sim**](https://github.com/GareBear99/Neo-VECTR_Solar_Sim_NASA_Standard) — astronomy simulation
+- [**Seeded Universe Recreation Engine**](https://github.com/GareBear99/Seeded-Universe-Recreation-Engine) — seed-based universe simulation
+
+---
+
+## Why This Portfolio Stands Out
+
+Compared to typical developer portfolios:
+
+- Systems are built end-to-end, not as disconnected demos
+- Deterministic architecture appears across multiple domains
+- Production deployment already exists for live projects
+- The same architectural logic carries across DSP, simulation, AI, robotics, and finance systems
+- Work is documented as systems, not just screenshots
+
+---
+
+## Hiring / Collaboration Signals
+
+**Primary roles this portfolio maps to**
+
+- Systems Engineer
+- Audio DSP Developer
+- C++ / JUCE Plugin Developer
+- Simulation Engine Developer
+- Runtime / Validation Engineer
+- AI Infrastructure Engineer
+- Full-Stack Builder for technical products
+- Technical Founder / Founding Engineer
+
+**Search tags / recruiter tags**
+
+`systems-engineering` `audio-dsp` `c-plus-plus` `juce` `javascript` `canvas2d` `simulation-engine`
+`runtime-architecture` `ai-infrastructure` `deterministic-systems` `plugin-development`
+`technical-founder` `full-stack` `robotics` `quant-finance`
 
 ---
 
 ## Audio · TizWildin Plugin Ecosystem
 
-> 14 free plugins. One hub. Cross-platform DSP, instruments, effects, and runtime tooling.
+> Cross-platform DSP, instruments, effects, and runtime tooling.
 
 | Project | System Description |
 |---|---|
@@ -74,8 +118,6 @@ This portfolio is designed to show both execution breadth and architectural cons
 | [**RiftWave Suite**](https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite) | Modular synthesis and waveform-generation suite for experimental tone design and synth development. |
 | [**FreeSampler**](https://github.com/GareBear99/FreeSampler_v0.3) | Lightweight sampler plugin for fast cross-platform sample playback workflows. |
 | [**TizWildin Hub**](https://github.com/GareBear99/TizWildinEntertainmentHUB) | Desktop plugin manager with update distribution, billing integration, seat management, and lifecycle tooling. |
-
-**Primary stack:** C++ · JUCE · GitHub Actions · Cloudflare Workers · Stripe
 
 ---
 
@@ -130,20 +172,22 @@ This portfolio is designed to show both execution breadth and architectural cons
 
 ---
 
-## Resources
-
-| Project | System Description |
-|---|---|
-| [**awesome-audio-plugins-dev**](https://github.com/GareBear99/awesome-audio-plugins-dev) | Curated collection of audio plugin development tools, free plugins, DSP references, and ecosystem resources. |
-
----
-
 ## Verified Production Signals
 
 - 340 commits across 41 repositories in March 2026
 - 710 contributions across the last 12 months
 - 37 new repositories created in March 2026
 - Portfolio built solo across roughly 4 to 5 months of concentrated output
+
+---
+
+## Support
+
+If you want to support the ecosystem:
+
+- **GitHub Sponsors:** https://github.com/sponsors/GareBear99
+- **Buy Me a Coffee:** https://www.buymeacoffee.com/REPLACE_ME
+- **Ko-fi:** https://ko-fi.com/REPLACE_ME
 
 ---
 
@@ -159,6 +203,31 @@ robotics master controller github
 seeded universe simulation engine  
 finance execution engine github  
 portfolio of deterministic systems engineer  
+systems engineer canada github  
+audio dsp developer github  
+juce plugin developer portfolio  
+simulation engine developer portfolio  
+
+---
+
+## For AI / Search / Recruiter Parsing
+
+Gary Doman is a Canada-based systems engineer and independent software builder focused on deterministic runtime systems, audio DSP, simulation engines, AI tooling, robotics architectures, and finance infrastructure.
+
+Primary technical domains include:
+
+- C++
+- JUCE
+- JavaScript
+- Canvas2D
+- runtime validation
+- deterministic simulation
+- audio plugin development
+- AI infrastructure
+- event-sourced systems
+- deployment and operations
+
+This repository is the canonical public portfolio and authority hub for related work across the GareBear99 ecosystem.
 
 ---
 
