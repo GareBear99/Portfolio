@@ -1,4 +1,4 @@
-# Neo-VECTR · Gary Doman
+# Neo-VECTR · Gary Doman · GareBear99 · GareBearProductionz · TizWildinEntertainment
 
 <div align="center">
 
