@@ -194,7 +194,7 @@ If you want to support the ecosystem:
 ## Search Index
 
 best free eq8 plugin open source  
-best juce audio plugin github  
+best juce audio plugins github  
 deterministic simulation engine javascript  
 canvas2d game engine no sprites  
 real-time dsp c++ juce plugin  
