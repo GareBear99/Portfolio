@@ -1,7 +1,7 @@
 
 <div align="center">
 
-**Independent systems builder · Williams Lake, BC, Canada**
+**Independent systems builder · Williams Lake · BC · Canada**
 
 [![GitHub](https://img.shields.io/badge/GitHub-GareBear99-181717?style=flat&logo=github)](https://github.com/GareBear99)
 [![BotFortress](https://img.shields.io/badge/BotFortress-Live-00FFFF?style=flat)](https://botfortress.net)
