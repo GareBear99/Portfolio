@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://garebear99.github.io/Portfolio/sitemap.xml
