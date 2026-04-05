@@ -224,7 +224,7 @@ Compared to typical developer portfolios:
 ## Verified Production Signals
 
 - 340 commits across 41 repositories in March 2026
-- 710 contributions across the last 12 months
+- 710 contributions across the last 6 months
 - 37 new repositories created in March 2026
 - Portfolio built solo across roughly 4 to 5 months of concentrated output
 
