@@ -1,0 +1,82 @@
+name: "💼 Hire me / Work request"
+description: "Open a role, contract, consulting engagement, or technical-founder conversation."
+title: "[Hire] <one-line role or project>"
+labels: ["hire", "needs-human"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for considering working with me. This form routes directly to a human.
+        If the work is confidential or NDA-bound, prefer email: **gdoman99@gmail.com**.
+
+  - type: input
+    id: org
+    attributes:
+      label: Organization / company
+      placeholder: "Acme Systems, solo, academic lab, …"
+    validations:
+      required: true
+
+  - type: input
+    id: role
+    attributes:
+      label: Role / engagement
+      placeholder: "Systems Engineer · Audio DSP Dev · Simulation Architect · Consulting · Technical Founder"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Engagement type
+      options:
+        - Full-time employment
+        - Contract / 1099
+        - Consulting (hourly or fixed-scope)
+        - Equity-bearing (technical-founder)
+        - Advisor / fractional
+        - Collaboration / open-source
+    validations:
+      required: true
+
+  - type: dropdown
+    id: timing
+    attributes:
+      label: Timing
+      options:
+        - Starting immediately
+        - Within 2-4 weeks
+        - Within 1-3 months
+        - Flexible
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: What the work is
+      description: "Be specific. What are you building, what is broken, what outcome do you need?"
+      placeholder: "We're building X, need help with Y. Success looks like Z."
+    validations:
+      required: true
+
+  - type: textarea
+    id: budget
+    attributes:
+      label: Budget / comp (optional)
+      description: "Ballpark range; open-source/collab can say so here."
+      placeholder: "e.g. $X-$Y/hr, $A-$B salary range, equity tier, open-source"
+
+  - type: input
+    id: contact
+    attributes:
+      label: Preferred contact
+      placeholder: "Email / LinkedIn / Signal / this issue is fine"
+
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Before submitting
+      options:
+        - label: "I understand this is a public issue; I have shared nothing confidential."
+          required: true

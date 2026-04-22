@@ -1,0 +1,47 @@
+name: "🔁 Follow-up to an AI pre-review"
+description: "Open a follow-up after the ARC GitHub AI Operator has posted a verdict and you want a human reply."
+title: "[Follow-up] <original issue #>"
+labels: ["follow-up", "needs-human"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form **after** the AI Operator has posted a pre-review on your original issue and you
+        want a human follow-up from Gary. Link the original issue below.
+
+  - type: input
+    id: original
+    attributes:
+      label: Original review issue
+      placeholder: "#12 or https://github.com/GareBear99/Portfolio/issues/12"
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your follow-up question
+      description: "What did the AI verdict miss, leave ambiguous, or surface that you want me to weigh in on?"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency
+      options:
+        - Not urgent (whenever)
+        - Within a week
+        - Within 48h (time-sensitive)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Before submitting
+      options:
+        - label: "I have read the AI pre-review on the original issue."
+          required: true
+        - label: "I understand a human reply is best-effort and may take days."
+          required: true

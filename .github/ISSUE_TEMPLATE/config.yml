@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "💼 Email directly (hiring / private work)"
+    url: mailto:gdoman99@gmail.com
+    about: "For anything confidential, NDA-protected, or time-sensitive, email is faster than an issue."
+  - name: "💖 Sponsor / support"
+    url: https://github.com/sponsors/GareBear99
+    about: "Support the ARC ecosystem via GitHub Sponsors, Buy Me a Coffee, or Ko-fi."
+  - name: "📖 Browse the portfolio"
+    url: https://garebear99.github.io/Portfolio/
+    about: "40+ project pages with banners, live docs, source, and metadata."

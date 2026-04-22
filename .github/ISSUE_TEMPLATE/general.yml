@@ -1,0 +1,23 @@
+name: "💬 General question / feedback"
+description: "Anything that isn't a hire request, a code-review request, or a follow-up."
+title: "[Q] <one-line summary>"
+labels: ["question", "needs-human"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out. For hire / code-review / follow-up, use the dedicated templates.
+        For **confidential** material: email `gdoman99@gmail.com`.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question or feedback
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Preferred contact
+      placeholder: "This issue / email / DM"

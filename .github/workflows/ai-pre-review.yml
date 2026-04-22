@@ -1,0 +1,149 @@
+name: AI pre-review (Portfolio intake)
+# When someone opens a code-review issue on the Portfolio, this workflow
+# posts an acknowledgement comment, adds the `ai-review-queued` label, and
+# dispatches a `code-review-request` event to gh-ai-operator, which then
+# comments a pre-review verdict back on this issue.
+
+on:
+  issues:
+    types: [opened, labeled]
+  workflow_dispatch:
+    inputs:
+      issue:
+        description: "Issue number to process manually"
+        required: true
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  gate:
+    if: >-
+      github.event_name == 'workflow_dispatch'
+      || (github.event_name == 'issues'
+          && (contains(github.event.issue.labels.*.name, 'code-review')
+              || github.event.label.name == 'code-review'))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Resolve issue payload
+        id: payload
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueNumber = context.payload.issue
+              ? context.payload.issue.number
+              : Number(context.payload.inputs.issue);
+            const { data: issue } = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+            });
+            core.setOutput('number',  String(issue.number));
+            core.setOutput('title',   issue.title);
+            core.setOutput('body',    issue.body || '');
+            core.setOutput('user',    issue.user.login);
+
+      - name: Extract structured fields from the issue body
+        id: fields
+        env:
+          BODY: ${{ steps.payload.outputs.body }}
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import os, re
+          body = os.environ.get("BODY", "")
+          def section(heading):
+              # GitHub issue forms render as "### Heading\n\n<value>\n\n"
+              m = re.search(rf"###\s+{re.escape(heading)}\s*\n+([\s\S]*?)(?:\n###\s+|\Z)", body)
+              return (m.group(1).strip() if m else "").strip()
+          target      = section("Target repository / pull request / gist URL")
+          review_type = section("What kind of review")
+          focus       = section("Specific concerns or focus areas")
+          depth       = section("Depth")
+          def out(k, v):
+              if "\n" in v:
+                  # use heredoc form for multi-line
+                  print(f"{k}<<FIELD_EOF")
+                  print(v)
+                  print("FIELD_EOF")
+              else:
+                  print(f"{k}={v}")
+          out("target_url", target)
+          out("review_type", review_type)
+          out("focus", focus)
+          out("depth", depth)
+          PY
+
+      - name: Ack + label the issue
+        uses: actions/github-script@v7
+        env:
+          TARGET:      ${{ steps.fields.outputs.target_url }}
+          REVIEW_TYPE: ${{ steps.fields.outputs.review_type }}
+          DEPTH:       ${{ steps.fields.outputs.depth }}
+        with:
+          script: |
+            const num = Number("${{ steps.payload.outputs.number }}");
+            const target = process.env.TARGET || "(no target parsed)";
+            const rtype  = process.env.REVIEW_TYPE || "standard";
+            const depth  = process.env.DEPTH || "standard";
+            const body = [
+              "### 🤖 AI pre-review queued",
+              "",
+              `**Target**: ${target}`,
+              `**Type**: ${rtype} · **Depth**: ${depth}`,
+              "",
+              "The [ARC GitHub AI Operator](https://github.com/GareBear99/gh-ai-operator) has been notified and will post a pre-review verdict here shortly.",
+              "",
+              "Gary may follow up personally depending on the verdict. If you want a deeper human round after the AI post, open a [Follow-up issue](https://github.com/GareBear99/Portfolio/issues/new?template=follow-up.yml) and he will respond.",
+            ].join("\n");
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: num,
+              body,
+            });
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: num,
+              labels: ["ai-review-queued"],
+            });
+
+      - name: Dispatch to gh-ai-operator
+        if: steps.fields.outputs.target_url != ''
+        env:
+          # Needs a PAT with `repo` scope so it can fire repository_dispatch
+          # on gh-ai-operator. Gracefully no-ops if the PAT isn't set.
+          DISPATCH_TOKEN: ${{ secrets.AI_OPERATOR_DISPATCH_TOKEN }}
+          ISSUE_NUM: ${{ steps.payload.outputs.number }}
+          TARGET:    ${{ steps.fields.outputs.target_url }}
+          RTYPE:     ${{ steps.fields.outputs.review_type }}
+          DEPTH:     ${{ steps.fields.outputs.depth }}
+          FOCUS:     ${{ steps.fields.outputs.focus }}
+        run: |
+          if [ -z "${DISPATCH_TOKEN}" ]; then
+            echo "[dispatch] AI_OPERATOR_DISPATCH_TOKEN not set; skipping cross-repo dispatch."
+            echo "[dispatch] The review will not run automatically until the secret is configured."
+            exit 0
+          fi
+          portfolio_issue="${GITHUB_REPOSITORY}#${ISSUE_NUM}"
+          payload=$(python3 - <<PY
+          import json, os
+          print(json.dumps({
+              "event_type": "code-review-request",
+              "client_payload": {
+                  "target_url":      os.environ["TARGET"],
+                  "portfolio_issue": "${GITHUB_REPOSITORY}#${ISSUE_NUM}",
+                  "review_type":     os.environ.get("RTYPE", ""),
+                  "depth":           os.environ.get("DEPTH", ""),
+                  "focus":           os.environ.get("FOCUS", ""),
+              },
+          }))
+          PY
+          )
+          curl -sS -X POST \
+            -H "Authorization: token ${DISPATCH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/GareBear99/gh-ai-operator/dispatches \
+            -d "$payload" \
+            && echo "[dispatch] sent code-review-request to gh-ai-operator"

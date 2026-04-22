@@ -254,6 +254,41 @@ Four R&D repos explicitly positioned as ARC-Core's next integration targets. Eac
 
 ---
 
+## 📥 Hire me / request a code review
+
+This repo now accepts structured issue intake. Every template routes to a clear next step.
+
+| What you want | Template | What happens |
+|---|---|---|
+| 💼 **Hire / contract / founder** | [New Hire issue](https://github.com/GareBear99/Portfolio/issues/new?template=hire-me.yml) | Labelled `hire`, `needs-human`. I reply directly. Confidential? Email `gdoman99@gmail.com`. |
+| 🤖 **Code review (AI pre-reviewed)** | [New Code-review issue](https://github.com/GareBear99/Portfolio/issues/new?template=code-review.yml) | Labelled `code-review`, `needs-ai-review`. The [ARC GitHub AI Operator](https://github.com/GareBear99/gh-ai-operator) posts a pre-review verdict on the issue (🟢 ship / 🟡 feedback / 🔴 redesign). **I may reply based on the verdict, or you can open a Follow-up and I will respond.** |
+| 🔁 **Follow-up after an AI verdict** | [New Follow-up issue](https://github.com/GareBear99/Portfolio/issues/new?template=follow-up.yml) | Labelled `follow-up`, `needs-human`. I reply personally. |
+| 💬 **General question / feedback** | [New General issue](https://github.com/GareBear99/Portfolio/issues/new?template=general.yml) | Labelled `question`, `needs-human`. |
+
+### How the code-review flow works
+
+```mermaid
+flowchart LR
+    A["You: Code-review issue"] --> B["Portfolio workflow<br/>ai-pre-review.yml"]
+    B -- "ack comment +<br/>ai-review-queued label" --> A
+    B -- "repository_dispatch" --> C["gh-ai-operator<br/>ai-review-dispatch.yml"]
+    C --> D["review_target.py<br/>(clone + snapshot + heuristics + AI)"]
+    D -- "gh issue comment" --> A
+    A -- "optional" --> E["You open Follow-up"]
+    E --> F["Gary replies personally"]
+```
+
+### One-time operator setup (repo owner only)
+
+To go live end-to-end you need one cross-repo secret:
+
+- **Portfolio → Settings → Secrets and variables → Actions → `AI_OPERATOR_DISPATCH_TOKEN`** — a fine-grained PAT with `Actions: read/write` and `Contents: read` on `GareBear99/gh-ai-operator`, so the Portfolio workflow can fire `repository_dispatch` there.
+- **gh-ai-operator → Settings → Secrets → `PORTFOLIO_WRITE_TOKEN`** — a PAT with `issues: write` on `GareBear99/Portfolio`, so the operator's review workflow can comment the verdict back on the originating issue.
+
+Until those secrets are set, the Portfolio workflow still runs: it posts an ack comment and labels the issue, but skips the cross-repo dispatch and logs that it was skipped.
+
+---
+
 ## Support
 
 One author runs the entire ARC ecosystem solo. Three public funding routes:

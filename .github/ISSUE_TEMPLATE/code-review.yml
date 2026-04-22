@@ -1,0 +1,85 @@
+name: "🤖 Code review request"
+description: "Request a code or architecture review. The ARC GitHub AI Operator will pre-review first."
+title: "[Review] <repo or PR>"
+labels: ["code-review", "needs-ai-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## How this works
+        1.  You fill this form. The issue is auto-labelled `code-review` + `needs-ai-review`.
+        2.  The **[ARC GitHub AI Operator](https://github.com/GareBear99/gh-ai-operator)** picks it up, reads the target, and posts a
+            pre-review comment here with a verdict (🟢 ship / 🟡 address feedback / 🔴 redesign), highlights, and concrete notes.
+        3.  **Based on the AI verdict, I may reply with additional notes or a human follow-up.** If you want a deeper
+            round, open a **Follow-up** issue and I will respond.
+        4.  If the work is confidential, do **not** paste source here — email `gdoman99@gmail.com` instead.
+
+  - type: input
+    id: target
+    attributes:
+      label: Target repository / pull request / gist URL
+      description: "Public link the operator can fetch."
+      placeholder: "https://github.com/owner/repo · https://github.com/owner/repo/pull/N · https://gist.github.com/…"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: review_type
+    attributes:
+      label: What kind of review
+      options:
+        - Full repo review (architecture + correctness + style)
+        - Pull request review (focused on the diff)
+        - Security review (find exploitable patterns)
+        - Performance review (hotpaths, allocs, I/O)
+        - DSP / audio review (JUCE, buffers, real-time safety)
+        - Trading / finance review (risk, sizing, kill-switches)
+        - Determinism / replay review (event sourcing, receipts)
+        - General sanity check
+    validations:
+      required: true
+
+  - type: textarea
+    id: focus
+    attributes:
+      label: Specific concerns or focus areas
+      description: "What are you most worried about? Which files/functions matter most?"
+      placeholder: "Worried about the risk manager's sizing path under packet loss; start in risk_manager.py"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: depth
+    attributes:
+      label: Depth
+      options:
+        - Quick (skim + high-level verdict)
+        - Standard (module-level walk, specific notes)
+        - Deep (line-level notes, edge cases, adversarial cases)
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context the operator should know
+      description: "Language / framework / constraints / performance envelope / target hardware / intended users."
+      placeholder: "Python 3.10, Binance Futures, runs on 2012 Intel Mac, must paper-trade by default."
+
+  - type: input
+    id: contact
+    attributes:
+      label: Preferred contact for follow-up
+      placeholder: "This issue / email / DM"
+
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Before submitting
+      options:
+        - label: "I understand the AI Operator will pre-review publicly in this issue."
+          required: true
+        - label: "Any code I link is public or I have rights to share it."
+          required: true
+        - label: "I understand Gary may respond based on the AI's verdict, or I can open a follow-up issue."
+          required: true
