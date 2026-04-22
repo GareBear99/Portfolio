@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Request a Code Review | Gary Doman Portfolio</title>
+<meta name="description" content="Request an ARC GitHub AI Operator code review via the Cloudflare Worker front-end. Static Pages form; no server-side state on this page."/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="canonical" href="https://garebear99.github.io/Portfolio/review.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Request a Code Review | Gary Doman Portfolio"/>
+<meta property="og:description" content="Fill out a form; a Cloudflare Worker dispatches it to the ARC GitHub AI Operator; the verdict comes back on a Portfolio issue."/>
+<meta property="og:url" content="https://garebear99.github.io/Portfolio/review.html"/>
+<meta property="og:image" content="https://garebear99.github.io/Portfolio/assets/banner.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="robots" content="index,follow,max-image-preview:large"/>
+<meta name="author" content="Gary Richard Doman"/>
+<meta name="theme-color" content="#08101b"/>
+<meta name="geo.placename" content="Williams Lake, British Columbia, Canada"/>
+<meta name="geo.region" content="CA-BC"/>
+<meta name="keywords" content="code review request, AI pre-review, ARC GitHub AI Operator, Cloudflare Worker, Portfolio, ARC ecosystem"/>
+<link rel="stylesheet" href="assets/styles.css"/>
+<style>
+  .form-grid { display: grid; gap: 14px; }
+  .form-grid label { display: block; font-weight: 600; margin-bottom: 4px; }
+  .form-grid input, .form-grid select, .form-grid textarea {
+    width: 100%; padding: 10px 12px; border-radius: 8px;
+    border: 1px solid #2a3550; background: #0d1528; color: #e6eefc;
+    font: inherit;
+  }
+  .form-grid textarea { min-height: 88px; resize: vertical; }
+  .btn.primary { cursor: pointer; }
+  .field-hint { font-size: 13px; color: #9fb0c9; margin-top: 4px; }
+  #status { white-space: pre-wrap; font-family: ui-monospace, Menlo, monospace; font-size: 13px; }
+  .verdict-panel { padding: 12px 14px; border-radius: 8px; background: #0d1528; border: 1px solid #2a3550; margin-top: 12px; }
+  .verdict-panel.ok     { border-color: #0e8a16; }
+  .verdict-panel.error  { border-color: #b60205; }
+  .verdict-panel.queued { border-color: #0366d6; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="./">Gary Doman</a>
+    <nav class="navlinks">
+      <a href="./">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="stack.html">Stack</a>
+      <a href="review.html">Request review</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="Gary_Richard_Doman_Resume.pdf">Resume</a>
+    </nav>
+  </div>
+</header>
+
+<main class="project-hero">
+  <div class="container">
+    <div class="breadcrumbs"><a href="./">Home</a> / Request review</div>
+
+    <section class="card">
+      <div class="kicker">🤖 ARC AI Operator — live intake</div>
+      <h1>Request a code review</h1>
+      <p class="muted">
+        This form POSTs to the
+        <a href="https://github.com/GareBear99/gh-ai-operator/blob/main/cloudflare/worker.js">ARC AI Operator Cloudflare Worker</a>,
+        which fires a <code>repository_dispatch</code> at
+        <a href="https://github.com/GareBear99/gh-ai-operator">gh-ai-operator</a>.
+        The operator clones the target, runs a language-aware heuristic pass,
+        emits a supervised training record for
+        <a href="https://github.com/GareBear99/ARC-Neuron-LLMBuilder">ARC-Neuron-LLMBuilder</a>,
+        and (when the Portfolio issue is supplied) comments the verdict back on that issue.
+      </p>
+      <p class="muted">
+        No server-side code runs on this page. All of the intake logic is a
+        static form + a single <code>fetch()</code> call to the Worker.
+      </p>
+      <hr class="sep"/>
+
+      <form id="review-form" class="form-grid" onsubmit="return submitReview(event)">
+        <div>
+          <label for="worker_url">Worker endpoint</label>
+          <input id="worker_url" name="worker_url" type="url"
+                 value="https://arc-ai-operator.admension.workers.dev/review" required/>
+          <div class="field-hint">The deployed Cloudflare Worker. Change only if you're running a fork.</div>
+        </div>
+
+        <div>
+          <label for="target_url">Target GitHub URL *</label>
+          <input id="target_url" name="target_url" type="url" required
+                 placeholder="https://github.com/owner/repo — or a /pull/123 URL"/>
+          <div class="field-hint">Public repositories and public PRs only. Private targets must be reviewed via email.</div>
+        </div>
+
+        <div>
+          <label for="review_type">Review type</label>
+          <select id="review_type" name="review_type">
+            <option>Full repo review (architecture + correctness + style)</option>
+            <option>Pull request review (focused on the diff)</option>
+            <option>Security review (find exploitable patterns)</option>
+            <option>Performance review (hotpaths, allocs, I/O)</option>
+            <option>DSP / audio review (JUCE, buffers, real-time safety)</option>
+            <option>Trading / finance review (risk, sizing, kill-switches)</option>
+            <option>Determinism / replay review (event sourcing, receipts)</option>
+            <option>General sanity check</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="depth">Depth</label>
+          <select id="depth" name="depth">
+            <option value="quick">Quick (skim + high-level verdict)</option>
+            <option value="standard" selected>Standard (module walk, specific notes)</option>
+            <option value="deep">Deep (line-level, edge cases, adversarial)</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="focus">Specific concerns / focus</label>
+          <textarea id="focus" name="focus"
+                    placeholder="What are you most worried about? Which files or functions matter most?"></textarea>
+        </div>
+
+        <div>
+          <label for="portfolio_issue">Portfolio issue to post verdict on (optional)</label>
+          <input id="portfolio_issue" name="portfolio_issue" type="text"
+                 pattern="^[\w.-]+\/[\w.-]+#\d+$"
+                 placeholder="GareBear99/Portfolio#NN (leave blank to skip posting)"/>
+          <div class="field-hint">If set, the operator will comment its verdict on this issue. Must look like <code>owner/repo#NN</code>.</div>
+        </div>
+
+        <div>
+          <label for="arc_token">Shared token (if Worker is secret-gated)</label>
+          <input id="arc_token" name="arc_token" type="password" autocomplete="off"
+                 placeholder="x-arc-token value — blank if the Worker is open"/>
+          <div class="field-hint">Sent as the <code>x-arc-token</code> header. This page does not persist it; it lives only in this browser tab.</div>
+        </div>
+
+        <div>
+          <button class="btn primary" type="submit">Dispatch review</button>
+        </div>
+      </form>
+
+      <div id="status-panel"></div>
+    </section>
+
+    <aside class="card" style="margin-top:16px;">
+      <h3>What happens next</h3>
+      <ol class="list">
+        <li>The Worker validates your target URL and (optional) <code>portfolio_issue</code>.</li>
+        <li>It calls GitHub's <code>repository_dispatch</code> endpoint at <code>GareBear99/gh-ai-operator</code> with event type <code>code-review-request</code>.</li>
+        <li>The <code>ai-review-dispatch.yml</code> workflow runs <code>review_target.py</code> against the target in a throwaway clone.</li>
+        <li>Heuristic + language-aware rule packs produce a verdict. When Cloudflare Workers AI credentials are set, an LLM layer adds semantic critique.</li>
+        <li>If <code>portfolio_issue</code> was supplied, the verdict is commented there. A <code>llmbuilder-training-export</code> artifact is uploaded for the nightly LLMBuilder ingest.</li>
+      </ol>
+      <p class="muted">The Worker never runs the model itself; it is a thin authenticated dispatcher. Attack surface is bounded to <code>github.com</code> / <code>gist.github.com</code> targets.</p>
+    </aside>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="card">
+      <strong>Gary Richard Doman</strong><br/>
+      <span class="muted">Williams Lake, British Columbia, Canada · gdoman99@gmail.com</span>
+      <div class="badges">
+        <a class="badge" href="https://github.com/GareBear99">GitHub</a>
+        <a class="badge" href="https://github.com/sponsors/GareBear99">GitHub Sponsors</a>
+        <a class="badge" href="https://www.buymeacoffee.com/garebear99">Buy Me a Coffee</a>
+        <a class="badge" href="https://ko-fi.com/garebear99">Ko-fi</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+async function submitReview(ev) {
+  ev.preventDefault();
+  const q = (id) => document.getElementById(id);
+  const panel = document.getElementById('status-panel');
+  panel.innerHTML = '<div class="verdict-panel queued">Dispatching…</div>';
+  const payload = {
+    target_url:      q('target_url').value.trim(),
+    portfolio_issue: q('portfolio_issue').value.trim(),
+    review_type:     q('review_type').value,
+    depth:           q('depth').value,
+    focus:           q('focus').value.trim(),
+  };
+  const headers = { 'content-type': 'application/json' };
+  const t = q('arc_token').value.trim();
+  if (t) headers['x-arc-token'] = t;
+
+  let res, text = '', ok = false;
+  try {
+    res = await fetch(q('worker_url').value.trim(), {
+      method:  'POST',
+      headers: headers,
+      body:    JSON.stringify(payload),
+    });
+    text = await res.text();
+    ok = res.ok;
+  } catch (e) {
+    panel.innerHTML = `<div class="verdict-panel error"><strong>Network error</strong><br/><code>${e.message || e}</code></div>`;
+    return false;
+  }
+
+  let pretty = text;
+  try { pretty = JSON.stringify(JSON.parse(text), null, 2); } catch (_) {}
+  const cls = res.status === 202 ? 'ok' : res.status === 401 ? 'error' : 'queued';
+  panel.innerHTML = `
+    <div class="verdict-panel ${cls}">
+      <strong>HTTP ${res.status}</strong>
+      <pre id="status">${pretty.replace(/[<&>]/g, (c) => ({'<':'&lt;','&':'&amp;','>':'&gt;'})[c])}</pre>
+    </div>
+  `;
+  return false;
+}
+</script>
+</body>
+</html>
