@@ -14,8 +14,8 @@ movement = cost      intelligence = constrained by reality
 [![TizWildin Hub](https://img.shields.io/badge/TizWildin_Hub-Live-6c7bbd?style=flat)](https://garebear99.github.io/TizWildinEntertainmentHUB/)
 [![Neolution](https://img.shields.io/badge/Neolution-Play_Now-eab308?style=flat)](https://garebear99.github.io/Neolution/)
 [![GitHub Sponsors](https://img.shields.io/badge/GitHub_Sponsors-Enabled-ea4aaa?style=flat&logo=githubsponsors)](https://github.com/sponsors/GareBear99)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-Add_Link-FFDD00?style=flat&logo=buymeacoffee&logoColor=000000)](#support)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Add_Link-ff5f5f?style=flat&logo=ko-fi&logoColor=white)](#support)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-garebear99-FFDD00?style=flat&logo=buymeacoffee&logoColor=000000)](https://www.buymeacoffee.com/garebear99)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-garebear99-FF5E5B?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/garebear99)
 
 **Independent systems builder · Williams Lake, BC · Canada**
 
@@ -184,16 +184,30 @@ Compared to typical developer portfolios:
 
 ## Finance & Trading Systems
 
+### 💸 Liquidity & monetization infrastructure
+
 | Project | System Description |
 |---|---|
-| [**ADMENSION**](https://github.com/GareBear99/ADMENSION) | Ad-revenue platform and monetization system with anti-fraud logic, payout automation, and analytics-driven web operations. |
-| [**VALLIS**](https://github.com/GareBear99/ADMENSION) | DeFi and liquidity infrastructure architecture including CFAMM logic, vault systems, and ecosystem monetization design. |
-| [**EdgeStack Currency**](https://github.com/GareBear99) | Event-sourced multi-currency execution engine emphasizing SSOT ledgering, EV gating, and risk-before-return architecture. *(private)* |
-| [**Harvest**](https://github.com/GareBear99) | Crypto trading system with backtesting, paper validation, and staged live deployment model. *(private)* |
-| [**GBz_Bot**](https://github.com/GareBear99) | Multi-strategy crypto execution bot with quantified backtest metrics and governed risk controls. *(private)* |
-| [**OneShot**](https://github.com/GareBear99) | Binary options machine-learning execution engine with adaptive models and structured bankroll constraints. *(private)* |
-| [**BrokeBot**](https://github.com/GareBear99) | Event-driven funding and execution architecture focused on capture efficiency and strict controls. *(private)* |
-| [**Charm Extension Bot**](https://github.com/GareBear99) | Autonomous ETH/USDC spot execution bot designed for constrained-capital deployment. *(private)* |
+| [**ADMENSION**](https://github.com/GareBear99/ADMENSION) · [live](https://garebear99.github.io/ADMENSION/) | Ad-revenue + liquidity platform: 154 ad placements, SENTINEL safety, SCAR continuity, EVE AI chatbot, 5 pools + Anunnaki Vault, smart contracts. |
+| [**VALLIS_Liquidity**](https://github.com/GareBear99/VALLIS_Liquidity) | Traffic hub + router that fronts the VALLIS ecosystem. Captures UTM / referrer / `adm` / seed params at the root domain and preserves them across redirects to ADMENSION or VALLIS, emitting `hub_hit` / `hub_redirect` events. |
+
+### 📈 ARC Trading Fleet — six public repos
+
+All six now public with live GitHub Pages docs sites, source, README, and the full ARC-Core event-and-receipt mapping.
+
+| Project | Source | Docs site |
+|---|---|---|
+| [**BrokeBot**](https://github.com/GareBear99/BrokeBot) — TRON funding-rate arbitrage (CEX, Python). Extreme-funding capture with ATR-sized stops, daily / streak kill-switches, JSONL structured logs. | [source](https://github.com/GareBear99/BrokeBot) | [garebear99.github.io/BrokeBot](https://garebear99.github.io/BrokeBot/) |
+| [**Charm**](https://github.com/GareBear99/Charm) — Autonomous Uniswap v3 spot bot on Base (Node.js) for ≤$12 micro-accounts. Mean-reversion bands, QuoterV2 slippage protection, dedicated-wallet pattern. | [source](https://github.com/GareBear99/Charm) | [garebear99.github.io/Charm](https://garebear99.github.io/Charm/) |
+| [**Harvest**](https://github.com/GareBear99/Harvest) — Multi-timeframe crypto research platform (15m/1h/4h), grid-search strategy discovery, blockchain-verified OHLCV, MetaMask CLI. | [source](https://github.com/GareBear99/Harvest) | [garebear99.github.io/Harvest](https://garebear99.github.io/Harvest/) |
+| [**One-Shot-Multi-Shot**](https://github.com/GareBear99/One-Shot-Multi-Shot) — Binary-options engine with 3-hearts risk lifecycle, adaptive stake ladder, hard $15/day loss cap. 40/40 tests passing. | [source](https://github.com/GareBear99/One-Shot-Multi-Shot) | [garebear99.github.io/One-Shot-Multi-Shot](https://garebear99.github.io/One-Shot-Multi-Shot/) |
+| [**DecaGrid**](https://github.com/GareBear99/DecaGrid) — Offline-first docs pack for a capital-ladder grid trading system. Whitepaper, runbook, DecaScore, execution & risk, universe, simulator, records, compliance. | [source](https://github.com/GareBear99/DecaGrid) | [garebear99.github.io/DecaGrid](https://garebear99.github.io/DecaGrid/) |
+| [**EdgeStack_Currency**](https://github.com/GareBear99/EdgeStack_Currency) — Canonical event-sourced multi-currency execution + edge-stacking engine spec. Immutable event ledger, FX conversion, reconciliation discipline. | [source](https://github.com/GareBear99/EdgeStack_Currency) | [garebear99.github.io/EdgeStack_Currency](https://garebear99.github.io/EdgeStack_Currency/) |
+
+### 🏠 Adjacent domain ops
+
+| Project | System Description |
+|---|---|
 | [**RAG Command Center**](https://github.com/GareBear99/RAG-Command-Center) | Canadian real estate intelligence platform for listings, deal scoring, mapping, CRM, and multi-source operational workflows. |
 
 ---
@@ -216,8 +230,18 @@ Compared to typical developer portfolios:
 | Project | System Description |
 |---|---|
 | [**Robotics Master Controller**](https://github.com/GareBear99/Robotics-Master-Controller) | Robotics research and systems-control hub covering prosthetics, artificial muscles, exoskeleton concepts, and fabrication planning. |
-| [**AGI Photon-Quantum Computing**](https://github.com/GareBear99/AGI_Photon-Quantum-Computing) | Photonic AGI theory and binary cell simulation exploring single-source intelligence architecture and laboratory orchestration concepts. |
 | [**TT-101 Handbook**](https://github.com/GareBear99/TT-101_Handbook) | Conceptual continuity framework for preserving and organizing knowledge across time-oriented scenarios. |
+
+### 🔮 ARC-Core roadmap (research-grade scaffolds)
+
+Four R&D repos explicitly positioned as ARC-Core's next integration targets. Each extends the kernel's event / entity / edge / proposal / receipt primitives into a new domain. Full per-repo integration contracts in [ARC-Core ECOSYSTEM.md § Future development plans](https://github.com/GareBear99/ARC-Core/blob/main/ECOSYSTEM.md#-future-development-plans--arc-core-roadmap).
+
+| Project | Roadmap thesis |
+|---|---|
+| [**ARC-Turbo-OS**](https://github.com/GareBear99/ARC-Turbo-OS) | Deterministic execution runtime targeting 2×–100× OS speedups via canonical problem graphs + resolved-output reuse. ARC-Core becomes the truth-of-what-ran layer behind the speedups. |
+| [**Proto-AGI**](https://github.com/GareBear99/Proto-AGI) | Persistent memory-backed tool-using proto-AGI loop. ARC-Core becomes the substrate for append-only memory, tool calls as proposals, tool returns as receipts, session replay, tamper-evident no-forged-history. |
+| [**AGI_Photon-Quantum-Computing**](https://github.com/GareBear99/AGI_Photon-Quantum-Computing) | Photon AGI thinking core + SSOT bot lab production dossier. ARC-Core's SSOT primitive maps directly; promotion follows LLMBuilder's Gate-v2 flow extended to the photon lane. |
+| [**A-real-time-spatial-signal-intelligence-engine**](https://github.com/GareBear99/A-real-time-spatial-signal-intelligence-engine) | Google Earth + WiFi / RF + device tracking + physics sim + satellite imagery. Natural upgrade path for ARC-Core's existing geospatial primitives (~70% of doctrine requirements already covered). |
 
 ---
 
@@ -232,11 +256,17 @@ Compared to typical developer portfolios:
 
 ## Support
 
-If you want to support the ecosystem, the strongest public route is:
+One author runs the entire ARC ecosystem solo. Three public funding routes:
 
-- [**GitHub Sponsors**](https://github.com/sponsors/GareBear99)
+[![Sponsor](https://img.shields.io/badge/GitHub%20Sponsors-GareBear99-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/GareBear99)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-garebear99-FFDD00?logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/garebear99)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-garebear99-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/garebear99)
 
-Additional support links can be added here once public funding pages are finalized.
+- **GitHub Sponsors**: <https://github.com/sponsors/GareBear99>
+- **Buy Me a Coffee**: <https://www.buymeacoffee.com/garebear99>
+- **Ko-fi**: <https://ko-fi.com/garebear99>
+
+Every dollar funds hardening across **ARC-Core + 15 consumer repos + the four roadmap repos**. One funding pool across the whole ecosystem.
 
 ---
 
@@ -285,6 +315,7 @@ This repository is the canonical public portfolio and authority hub for related 
 - **BotFortress:** [botfortress.net](https://botfortress.net)
 - **ADMENSION:** [garebear99.github.io/ADMENSION](https://garebear99.github.io/ADMENSION/)
 - **TizWildin Hub:** [garebear99.github.io/TizWildinEntertainmentHUB](https://garebear99.github.io/TizWildinEntertainmentHUB/)
+- **ARC Trading Fleet docs:** [BrokeBot](https://garebear99.github.io/BrokeBot/) · [Charm](https://garebear99.github.io/Charm/) · [Harvest](https://garebear99.github.io/Harvest/) · [One-Shot-Multi-Shot](https://garebear99.github.io/One-Shot-Multi-Shot/) · [DecaGrid](https://garebear99.github.io/DecaGrid/) · [EdgeStack_Currency](https://garebear99.github.io/EdgeStack_Currency/)
 
 ---
 
