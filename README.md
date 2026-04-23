@@ -73,21 +73,6 @@ All major projects are built around reproducibility, structured validation, and 
 
 ---
 
-## Core Systems
-
-This portfolio acts as the central public authority node for the GareBear99 ecosystem.
-
-- [**FreeEQ8**](https://github.com/GareBear99/FreeEQ8) — open-source audio DSP / JUCE equalizer platform
-- [**ARC-Core**](https://github.com/GareBear99/ARC-Core) — event-correlation and intelligence systems core
-- [**arc-lucifer-cleanroom-runtime**](https://github.com/GareBear99/arc-lucifer-cleanroom-runtime) — cleanroom runtime and autonomous operator loop foundation
-- [**Proto-AGI**](https://github.com/GareBear99/Proto-AGI) — AGI architecture framing and system composition
-- [**Seeded Universe Recreation Engine**](https://github.com/GareBear99/Seeded-Universe-Recreation-Engine) — seed-based universe simulation
-- [**Neo-VECTR Solar Sim**](https://github.com/GareBear99/Neo-VECTR_Solar_Sim_NASA_Standard) — astronomy simulation and navigation system
-- [**RAG Command Center**](https://github.com/GareBear99/RAG-Command-Center) — real estate intelligence platform
-- [**BotFortress**](https://botfortress.net) — infrastructure and deployment surface
-
----
-
 ## ARC / AGI / Runtime Stack
 
 This is the clearest public route into the long-range AGI and systems architecture work.
