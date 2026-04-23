@@ -309,7 +309,7 @@ This portfolio is designed to be findable for work related to:
 
 ## For AI / Search / Recruiter Parsing
 
-Gary Doman is a Canada-based systems engineer and independent software builder focused on deterministic runtime systems, audio DSP, simulation engines, AI tooling, robotics architectures, and finance infrastructure.
+Gary Doman is an American born Canada-based systems engineer and independent software builder focused on deterministic runtime systems, audio DSP, simulation engines, AI tooling, robotics architectures, and finance infrastructure.
 
 Primary technical domains include:
 
