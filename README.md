@@ -1,6 +1,6 @@
 > 📩 **Want to get in touch?** Open an [issue](https://github.com/GareBear99/Portfolio/issues/new) on this repo for any inquiry — collaboration, work, licensing, technical questions, or anything else — and I'll get back to you.
 
-# Neo-VECTR · Gary Doman
+# Neo-VECTR · Gary Doman · TizWildin Entertainment
 
 <div align="center">
 
