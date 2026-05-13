@@ -24,3 +24,11 @@ format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Changed
 - `projects.html`: Audio DSP grid grew 11 → 23 cards; filter buttons
   now include a `Sample Packs` option.
+
+## 2026-05-12 — Sponsored Work Intake
+
+- Added public sponsored work and micro-task positioning.
+- Added services, sponsor-task workflow, issue workflow, sponsor menu, hire-me, and portfolio proof docs.
+- Added issue templates for sponsored tasks, repo reviews, and audio plugin feedback.
+- Updated homepage CTAs, contact routing, and funding links for issue-based sponsored work.
+

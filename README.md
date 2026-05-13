@@ -1,4 +1,5 @@
-> 📩 **Want to get in touch?** Open an [issue](https://github.com/GareBear99/Portfolio/issues/new) on this repo for any inquiry — collaboration, work, licensing, technical questions, or anything else — and I'll get back to you.
+> 💼 **Available for sponsored work, repo reviews, technical fixes, documentation cleanup, audio/plugin feedback, and micro-tasks.**
+> Open an [issue](https://github.com/GareBear99/Portfolio/issues/new/choose) for clear scoped requests. Micro-sponsor tasks start at **$1+** through GitHub Sponsors, Ko-fi, or Buy Me a Coffee.
 
 # Neo-VECTR · Gary Doman · TizWildin Entertainment
 
@@ -17,12 +18,16 @@ movement = cost      intelligence = constrained by reality
 [![GitHub Sponsors](https://img.shields.io/badge/GitHub_Sponsors-Enabled-ea4aaa?style=flat&logo=githubsponsors)](https://github.com/sponsors/GareBear99)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-garebear99-FFDD00?style=flat&logo=buymeacoffee&logoColor=000000)](https://www.buymeacoffee.com/garebear99)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-garebear99-FF5E5B?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/garebear99)
+[![Request Work](https://img.shields.io/badge/Open_an_Issue-Request_Work-22c55e?style=flat&logo=github)](https://github.com/GareBear99/Portfolio/issues/new/choose)
+[![Services](https://img.shields.io/badge/Services-Sponsored_Work-55e6ff?style=flat)](SERVICES.md)
+[![Sponsor Tasks](https://img.shields.io/badge/Micro--Tasks-%241%2B-facc15?style=flat)](SPONSOR_TASKS.md)
+
 
 **Independent systems builder · Williams Lake, BC · Canada**
 
 *Audio DSP · Quant Finance · AI Infrastructure · Physics Simulation · Robotics · Game Development*
 
-**Open to:** Systems Engineering · DSP / Audio Plugin Development · Simulation Engine Architecture · Runtime / AI Infrastructure
+**Open to:** Systems Engineering · DSP / Audio Plugin Development · Simulation Engine Architecture · Runtime / AI Infrastructure · Sponsored Repo Reviews · Documentation & Release Cleanup · Micro-Tasks
 
 </div>
 
@@ -42,6 +47,38 @@ This repository is the **public portfolio authority node** for Gary Doman / Neo-
 - [Games & Simulation Engines](#games--simulation-engines)
 - [Research & Applied Systems](#research--applied-systems)
 - [Contact](#contact)
+
+---
+
+## Sponsored Work & Micro-Tasks
+
+I accept issue-based sponsored work, repo reviews, documentation cleanup, bug investigation, audio/plugin feedback, architecture planning, GitHub release polish, SEO positioning, and small implementation guidance.
+
+Micro-sponsor requests start at **$1+** when the task is clear, scoped, respectful, and useful. A $1 request is best for a concise recommendation, first impression, wording pass, or single issue comment. Larger scopes require larger budgets or a separate agreement.
+
+### Good fits
+
+- C++ / JUCE / VST3 / AU plugin guidance
+- Audio DSP review and plugin feedback
+- GitHub repo cleanup, CI hygiene, and release preparation
+- README, documentation, SEO, and submission polish
+- Python, JavaScript, Rust, C#, and tooling reviews
+- AI / LLM workflow architecture and local-first systems planning
+- Game, simulation, and deterministic runtime architecture
+- Debugging strategy, technical triage, and public launch positioning
+
+### How to request work
+
+1. Open an issue using the [Sponsored Task template](https://github.com/GareBear99/Portfolio/issues/new/choose).
+2. Include the repo/file/page, expected result, and whether you want advice, review, docs, or code.
+3. Add the sponsor/budget amount if the request is priority work.
+4. I will accept, decline, or ask for tighter scope before any larger work begins.
+
+See [SERVICES.md](SERVICES.md), [SPONSOR_TASKS.md](SPONSOR_TASKS.md), and [ISSUE_WORKFLOW.md](ISSUE_WORKFLOW.md) for the full workflow.
+
+### Plain-English value
+
+I help technical projects become clearer, cleaner, more usable, more searchable, and more shippable — from $1 micro-reviews to full architecture and implementation work.
 
 ---
 

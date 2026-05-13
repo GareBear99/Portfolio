@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <title>Request a Code Review | Gary Doman Portfolio</title>
-<meta name="description" content="Request an ARC GitHub AI Operator code review via the Cloudflare Worker front-end. Static Pages form; no server-side state on this page."/>
+<meta name="description" content="Request an ARC GitHub AI Operator code review, repo review, sponsored micro-task via the Cloudflare Worker front-end. Static Pages form; no server-side state on this page."/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="canonical" href="https://garebear99.github.io/Portfolio/review.html"/>
 <meta property="og:type" content="website"/>
@@ -17,7 +17,7 @@
 <meta name="theme-color" content="#08101b"/>
 <meta name="geo.placename" content="Williams Lake, British Columbia, Canada"/>
 <meta name="geo.region" content="CA-BC"/>
-<meta name="keywords" content="code review request, AI pre-review, ARC GitHub AI Operator, Cloudflare Worker, Portfolio, ARC ecosystem"/>
+<meta name="keywords" content="code review, repo review, sponsored micro-task request, AI pre-review, ARC GitHub AI Operator, Cloudflare Worker, Portfolio, ARC ecosystem"/>
 <link rel="stylesheet" href="assets/styles.css"/>
 <style>
   .form-grid { display: grid; gap: 14px; }
@@ -45,7 +45,7 @@
       <a href="./">Home</a>
       <a href="projects.html">Projects</a>
       <a href="stack.html">Stack</a>
-      <a href="review.html">Request review</a>
+      <a href="review.html">Request review / sponsored task</a>
       <a href="index.html#contact">Contact</a>
       <a href="Gary_Richard_Doman_Resume.pdf">Resume</a>
     </nav>
@@ -54,11 +54,11 @@
 
 <main class="project-hero">
   <div class="container">
-    <div class="breadcrumbs"><a href="./">Home</a> / Request review</div>
+    <div class="breadcrumbs"><a href="./">Home</a> / Request review / sponsored task</div>
 
     <section class="card">
       <div class="kicker">🤖 ARC AI Operator — live intake</div>
-      <h1>Request a code review</h1>
+      <h1>Request a code review, repo review, sponsored micro-task</h1>
       <p class="muted">
         This form POSTs to the
         <a href="https://github.com/GareBear99/gh-ai-operator/blob/main/cloudflare/worker.js">ARC AI Operator Cloudflare Worker</a>,
@@ -154,7 +154,7 @@
       <p class="muted">The Worker never runs the model itself; it is a thin authenticated dispatcher. Attack surface is bounded to <code>github.com</code> / <code>gist.github.com</code> targets.</p>
     </aside>
   </div>
-</main>
+<section class="section"><div class="container"><div class="card"><h2>Sponsored micro-tasks</h2><p class="muted">For clear scoped requests, use the sponsored task issue template. Micro-sponsor requests start at $1+ for concise feedback, repo review notes, documentation cleanup, plugin feedback, and technical triage.</p><div class="cta-row"><a class="btn primary" href="https://github.com/GareBear99/Portfolio/issues/new/choose">Open a sponsored request</a><a class="btn" href="https://github.com/sponsors/GareBear99">Sponsor on GitHub</a></div></div></div></section></main>
 
 <footer class="footer">
   <div class="container">
