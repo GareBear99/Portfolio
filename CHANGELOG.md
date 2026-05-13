@@ -1,3 +1,10 @@
+
+## 2026-05-13 — Full README ecosystem expansion
+
+- Expanded the root README itself with the full public project/repo ecosystem instead of relying only on secondary proof docs.
+- Added major missing lanes: ARC-Neuron/LLMBuilder, arc-language-module, gh-ai-operator, OmniBinary, FreeVox8, Voxel_Audio, SoundRecordBoard, URA-CC/CouchController, AI Screenshot Attachment, Maid Suite, Wraith Eternal, M.O.M, SlimeVeil, VALLIS, ADMENSION, trading fleet, simulation, robotics, and sample-pack/audio brand products.
+- Added a complete additional portfolio-page inventory so recruiters, sponsors, and maintainers can see the breadth directly from the README.
+
 # Changelog
 
 All notable changes to the Portfolio site are documented here. The

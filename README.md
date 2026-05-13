@@ -113,163 +113,157 @@ All major projects are built around reproducibility, structured validation, and 
 
 ---
 
-## ARC / AGI / Runtime Stack
+## Full Ecosystem Map — Public Proof of Range
 
-This is the clearest public route into the long-range AGI and systems architecture work.
+This README now carries the ecosystem directly instead of hiding the proof in a secondary document. The portfolio is not one isolated demo; it is a working map of audio products, AI/runtime systems, simulation engines, trading tools, game prototypes, web products, documentation packages, and public GitHub release workflows.
 
-| Layer | Repository | Role in the Stack |
+### ARC / AGI / Runtime / Cognition Stack
+
+| Project / Repo | Public Role | Why It Matters |
 |---|---|---|
-| Portfolio Authority | [**GareBear99**](https://github.com/GareBear99) | Public-facing portfolio, routing hub, and ecosystem index |
-| AGI Architecture | [**Proto-AGI**](https://github.com/GareBear99/Proto-AGI) | High-level AGI framing, doctrine, stack composition, and long-range intent |
-| Intelligence Core | [**ARC-Core**](https://github.com/GareBear99/ARC-Core) | Intelligence fusion, entities, proposals, cases, watchlists, notes, receipts, and correlation logic |
-| Runtime Loop | [**arc-lucifer-cleanroom-runtime**](https://github.com/GareBear99/arc-lucifer-cleanroom-runtime) | Blank-slate autonomous runtime, directive loop, memory discipline, and operator-grade control flow |
-| Future OS Layer | [**ARC-Turbo-OS**](https://github.com/GareBear99/ARC-Turbo-OS) | Seed-rooted branch-aware runtime with reusable resolved task graphs and turbo-resolution concepts |
-| Archive / Transfer Layer | [**Arc-RAR**](https://github.com/GareBear99/Arc-RAR) | Native archive and package handling concept for cross-system portability and distribution |
-| Synth / Grid Logic | [**Proto-Synth_Grid_Engine**](https://github.com/GareBear99/Proto-Synth_Grid_Engine) | Virtual simulated physics capacity-weighted substrate and bounded executor concepts |
-| Compute / Research Layer | [**AGI_Photon-Quantum-Computing**](https://github.com/GareBear99/AGI_Photon-Quantum-Computing) | Photonic compute theory, SSOT binary-cell logic, and laboratory orchestration concepts |
-| Local Intelligence Surface | [**LuciferAI_Local**](https://github.com/GareBear99/LuciferAI_Local) | Local AI execution, GGUF-driven cognition, and fallback operator intelligence |
-| Cosmological Simulation | [**Seeded-Universe-Recreation-Engine**](https://github.com/GareBear99/Seeded-Universe-Recreation-Engine) | Deterministic seeded universe simulation intended to scale from cosmology to chemistry and life emergence |
+| [**ARC-Core**](https://github.com/GareBear99/ARC-Core) | Central authority, state, receipt, proposal, watchlist, note, entity, and validation console | Shows event-sourced thinking, governance, risk scoring, source-of-truth discipline, and operator-grade system design |
+| [**ARC-Neuron LLMBuilder**](https://github.com/GareBear99/ARC-Neuron-LLMBuilder) | Local-first LLM lifecycle framework for benchmark receipts, candidate/incumbent promotion, archive-ready lineage, and small-model improvement | Shows AI infrastructure, model lifecycle planning, reproducibility, scoring, and promotion-gate design |
+| [**arc-neuron-llmbuilder-v1.0.0**](https://github.com/GareBear99/arc-neuron-llmbuilder-v1.0.0) | Protected baseline snapshot for ARC-Neuron | Shows release preservation, branch protection mindset, and stable baseline discipline |
+| [**Lucid Terminal**](https://github.com/GareBear99/Lucid-Terminal) | Deterministic operator shell / parser / router / proposal interface for ARC | Shows command-routing, LLM boundary control, local-first operator UX, and approval/rejection lifecycle design |
+| [**Proto-AGI**](https://github.com/GareBear99/Proto-AGI) | High-level AGI architecture doctrine and stack map | Shows long-range architecture thinking without pretending a prototype is finished AGI |
+| [**arc-lucifer-cleanroom-runtime**](https://github.com/GareBear99/arc-lucifer-cleanroom-runtime) | Cleanroom local AI runtime concept for compiled/local inference, directive loops, archival events, and operator control | Shows local/offline AI execution planning, memory discipline, rollback thinking, and runtime safety framing |
+| [**LuciferAI_Local**](https://github.com/GareBear99/LuciferAI_Local) | Local AI assistant and fallback cognition surface | Shows practical local assistant integration and operator-facing AI tooling |
+| [**arc-language-module**](https://github.com/GareBear99/arc-language-module) | Language, transliteration, lineage, orthography, phonology, and lexical learning module | Shows language-system thinking, dataset organization, and cognition-seed planning |
+| [**gh-ai-operator**](https://github.com/GareBear99/gh-ai-operator) | GitHub issue/repo AI operator bridge for review workflows | Shows automation, GitHub Actions orchestration, and human-in-the-loop review routing |
+| [**ARC-Turbo-OS**](https://github.com/GareBear99/ARC-Turbo-OS) | Seed-rooted branch-aware runtime with reusable resolved task graphs and acceleration concepts | Shows OS/runtime imagination, caching of resolved work, and deterministic execution planning |
+| [**Arc-RAR**](https://github.com/GareBear99/Arc-RAR) | Native-first archive manager concept with CLI/GUI, FFI bridge, intent validation, and receipts | Shows Rust/native architecture, archive tooling, autowrap validation, and cross-platform product planning |
+| **OmniBinary Runtime / Ledger** | Binary truth mirror / event ledger concept for reproducible memory, archive, and rollback | Shows binary/source truth latching, replay discipline, and long-term archival architecture |
+| [**Proto-Synth Grid Engine**](https://github.com/GareBear99/Proto-Synth_Grid_Engine) | Spatial cognition / blueprint / neural visual substrate | Shows visual cognition design, capacity-weighted simulation, attachment systems, and math-first rendering ideas |
+| [**A Real-Time Spatial Signal Intelligence Engine**](https://github.com/GareBear99/A-real-time-spatial-signal-intelligence-engine) | Spatial signal / RF / geospatial mapping engine | Shows geospatial modeling, signal overlays, and physical-space intelligence planning |
+| [**AGI Photon Quantum Computing**](https://github.com/GareBear99/AGI_Photon-Quantum-Computing) | Photonic compute / binary-cell / lab orchestration concept | Shows experimental compute theory and technical documentation range |
+| [**TT-101 Handbook**](https://github.com/GareBear99/TT-101_Handbook) | Continuity / emergent-life / communication doctrine | Shows ethics, long-horizon knowledge preservation, and speculative systems writing |
 
-### Why this stack matters
+### Audio DSP / JUCE / Plugin Ecosystem
 
-The same architectural logic repeats across the ecosystem:
+| Project / Repo | Public Role | Why It Matters |
+|---|---|---|
+| [**FreeEQ8**](https://github.com/GareBear99/FreeEQ8) | Free 8-band parametric EQ built with C++/JUCE, VST3/AU, linear phase, dynamic EQ, match EQ, M/S, oversampling, presets | Flagship open-source audio product; proves JUCE, DSP, release, SEO, submission, and plugin positioning ability |
+| [**ProEQ8**](https://github.com/GareBear99/FreeEQ8) | Commercial/expanded EQ direction tied to FreeEQ8 architecture | Shows product ladder thinking and free-to-pro roadmap discipline |
+| [**FreeVox8**](https://github.com/GareBear99/FreeVox8) | Spectral vocoder / vocal processing plugin direction seeded from FreeEQ8 architecture | Shows reuse of DSP architecture into a new product class |
+| [**FreeSampler**](https://github.com/GareBear99/FreeSampler_v0.3) | Lightweight sampler plugin | Shows instrument/plugin fundamentals and compact audio-tool design |
+| [**Therum**](https://github.com/GareBear99/Therum_JUCE-Plugin) | Theremin-style expressive JUCE instrument | Shows expressive control design and instrument UX thinking |
+| [**Xylocore**](https://github.com/GareBear99/Xylocore) | Flagship instrument/plugin direction | Shows instrument-brand development and suite-level planning |
+| [**Instrudio**](https://github.com/GareBear99/Instrudio) | Cross-platform instrument suite with shared JSON core | Shows plugin/web/mobile bridge planning and shared state architecture |
+| [**PaintMask**](https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin) | Paint/gesture-driven audio processing plugin | Shows experimental UX-driven DSP and production packaging discipline |
+| [**WhisperGate**](https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin) | Procedural whisper / ritual atmosphere plugin | Shows creative DSP product ideation and public plugin packaging |
+| [**WURP**](https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE) | Toxic motion / formant / saturation engine | Shows motion-to-sound design, modulation systems, and branded plugin concepting |
+| [**AETHER**](https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer) | Choir atmosphere / cinematic texture designer | Shows sound-design tooling and atmospheric instrument planning |
+| [**RiftWave Suite**](https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite) | Modular synth / waveform suite | Shows synth architecture and modular product bundling |
+| [**TizWildin Entertainment Hub**](https://github.com/GareBear99/TizWildinEntertainmentHUB) | Plugin hub, update dashboard, release router, audio ecosystem front door | Shows product distribution, user-facing landing pages, and plugin ecosystem routing |
+| [**Voxel_Audio**](https://github.com/GareBear99/Voxel_Audio) | Voxel/RGB audio visualizer and export platform | Shows audio-reactive visuals, export flow design, browser/server FFmpeg planning, and creator tooling |
+| [**SoundRecordBoard**](https://github.com/GareBear99/SoundRecordBoard) | Controller-driven soundboard and recording utility | Shows PyQt/Pygame/tooling, creator workflow, and practical audio utility development |
 
-- deterministic execution
-- explicit authority and state control
-- validation before trust
-- reproducible event history
-- low-overhead systems thinking
-- math-first simulation and runtime design
+#### Maid Suite / Mixing Suite Products
 
----
+| Project | Purpose |
+|---|---|
+| [**BassMaid**](https://github.com/GareBear99/BassMaid) | Bass processing / low-end control direction |
+| [**SpaceMaid**](https://github.com/GareBear99/SpaceMaid) | Spatial/reverb/delay/mix-space direction |
+| [**GlueMaid**](https://github.com/GareBear99/GlueMaid) | Bus glue / compression / cohesion direction |
+| [**MixMaid**](https://github.com/GareBear99/MixMaid) | General mix-assistant / mix utility direction |
+| [**MeterMaid**](https://github.com/GareBear99/MeterMaid) | Metering / analysis direction |
+| [**ChainMaid**](https://github.com/GareBear99/ChainMaid) | Chain/routing/preset workflow direction |
+| [**MultiMaid**](https://github.com/GareBear99/MultiMaid) | Multiband processing direction |
 
-## Why This Portfolio Stands Out
+#### Sample Packs / Sound Kits / Audio Brand Assets
 
-Compared to typical developer portfolios:
+| Project | Purpose |
+|---|---|
+| [**Free 808 Producer Kit**](projects/free-808-producer-kit.html) | Free producer sample-pack funnel |
+| [**Free Drum Producer Kit**](projects/free-drum-producer-kit.html) | Drum-kit creator product |
+| [**Free Dark Piano Sound Kit**](projects/free-dark-piano-sound-kit.html) | Piano/mood sample pack |
+| [**Free Future Bass Producer Kit**](projects/free-future-bass-producer-kit.html) | Future-bass sample pack |
+| [**Free Riser Producer Kit**](projects/free-riser-producer-kit.html) | FX/riser pack |
+| [**Free Violin Synth Sample Kit**](projects/free-violin-synth-sample-kit.html) | Violin/synth hybrid sample pack |
+| [**Phonk Producer Toolkit**](projects/phonk-producer-toolkit.html) | Phonk producer assets |
+| [**PAP Forge Audio**](projects/pap-forge-audio.html) | Audio forge / pack tooling direction |
+| [**BanjoElectro**](projects/banjoelectro.html) | Hybrid instrument/genre product |
+| [**TizWildin Aurora / Chime / Chroma / Obsidian / Pharaoh / Skyline**](projects/tizwildin-aurora.html) | Branded audio/visual identity products and sound-pack directions |
 
-- Systems are built end-to-end, not as disconnected demos
-- Deterministic architecture appears across multiple domains
-- Production deployment already exists for live projects
-- The same architectural logic carries across DSP, simulation, AI, robotics, and finance systems
-- Work is documented as systems, not just screenshots
+### Web Products / Infrastructure / Developer Tools
 
----
+| Project / Repo | Public Role | Why It Matters |
+|---|---|---|
+| [**BotFortress**](https://botfortress.net) | Edge-hosted Discord bot deployment platform | Shows production web deployment, infrastructure, automation, and platform design |
+| [**ADMENSION**](https://github.com/GareBear99/ADMENSION) · [live](https://garebear99.github.io/ADMENSION/) | Ad-funded liquidity/minigame/product shell with SENTINEL/SCAR/EVE layers | Shows monetization architecture, compliance-minded UX, funnel design, and public product packaging |
+| [**VALLIS / VALLIS Liquidity**](projects/vallis.html) | Traffic router, lore/brand layer, liquidity/faucet/ad architecture | Shows platform monetization, traffic routing, treasury/risk rules, and product ecosystem design |
+| [**URA-CC / CouchController**](https://github.com/GareBear99/URA-CC) | Mobile-first PC remote-control concept: Windows host, Android client, LAN/WebRTC, thumb-dial mouse | Shows Rust/Flutter/WebRTC product planning and mobile-first UX design |
+| [**AI Screenshot Attachment**](https://github.com/GareBear99/AI-Screenshot-Attachment) | macOS browser screenshot CLI/helper for AI agents, QA, and visual capture | Shows practical automation utilities, macOS scripting, repo packaging, and GitHub-ready documentation |
+| [**Charm Extension Bot**](projects/charm-extension-bot.html) | Browser/extension automation direction | Shows extension/bot surface planning |
+| [**SURE**](projects/sure.html) | Software/release/product concept | Shows experimental product packaging and portfolio breadth |
+| [**VF PlexLab**](projects/vf-plexlab.html) | Visual/functional lab product track | Shows visual tooling and experimental UI systems |
 
-## Hiring / Collaboration Signals
+### Finance / Trading / Monetization Systems
 
-### Primary roles this portfolio maps to
+| Project / Repo | Public Role | Why It Matters |
+|---|---|---|
+| [**BrokeBot**](https://github.com/GareBear99/BrokeBot) | TRON funding-rate arbitrage bot concept with strict risk controls and JSONL logs | Shows exchange strategy modeling, risk caps, logging, and deployment discipline |
+| [**Charm**](https://github.com/GareBear99/Charm) | Autonomous Uniswap v3 spot bot for Base micro-accounts | Shows Web3 trading, slippage protection, and micro-account design |
+| [**Harvest**](https://github.com/GareBear99/Harvest) | Multi-timeframe crypto research and grid-search platform | Shows data-driven strategy discovery and blockchain-verified OHLCV workflows |
+| [**One-Shot-Multi-Shot**](https://github.com/GareBear99/One-Shot-Multi-Shot) | Binary-options engine with capped daily risk and adaptive stake ladder | Shows risk-first trading tool architecture |
+| [**DecaGrid**](https://github.com/GareBear99/DecaGrid) | Capital-ladder grid trading docs/spec package | Shows whitepaper/runbook/product-documentation capability |
+| [**EdgeStack_Currency**](https://github.com/GareBear99/EdgeStack_Currency) | Event-sourced multi-currency execution + edge-stacking engine spec | Shows ledger, reconciliation, FX conversion, and execution architecture |
+| [**RAG Command Center**](https://github.com/GareBear99/RAG-Command-Center) | Canadian real-estate intelligence platform | Shows applied business tooling, deal scoring, mapping, and CRM concepts |
+| [**GBot / GBz_Bot**](projects/gbot.html) | Trading/automation bot direction | Shows bot lifecycle and risk-controlled automation planning |
+
+### Games / Simulation / Interactive Engines
+
+| Project / Repo | Public Role | Why It Matters |
+|---|---|---|
+| [**Neolution**](https://github.com/GareBear99/Neolution) | Deterministic rhythm engine on a TRON-style grid | Shows audio-derived gameplay, controller support, and math-first runtime design |
+| [**RiftAscent**](https://github.com/GareBear99/RiftAscent) | Canvas action game with prestige loops, validators, procedural audio, and performance-first flow control | Shows game loop engineering, UI systems, monetization planning, and debug/validator architecture |
+| [**Wraith Eternal**](projects/mythodic.html) | Dark survival roguelite/arena endurance direction with mutation systems and milestone bosses | Shows game-system design, boss mechanics, visual mutation architecture, and launch positioning |
+| [**M.O.M: Grounded Edition**](projects/mythodic.html) | Witness/testimony-driven horror/social systems design | Shows non-omniscient AI logic, social deception systems, guilt tracking, and emergent narrative mechanics |
+| [**SlimeVeil**](projects/mythodic.html) | Platformer/world-progression game direction | Shows platformer systems, level planning, lore structure, and game-loop iteration |
+| [**Mythodic**](projects/mythodic.html) | Myth/game/lore product lane | Shows game-brand and content-system development |
+| [**Seeded Universe Recreation Engine**](https://github.com/GareBear99/Seeded-Universe-Recreation-Engine) | Single-seed deterministic universe simulation from cosmology to chemistry/life | Shows large-scale simulation architecture and reproducible world-generation design |
+| [**Neo-VECTR Solar Sim NASA Standard**](https://github.com/GareBear99/Neo-VECTR_Solar_Sim_NASA_Standard) | Astronomy/solar simulation with catalog-driven truth packs | Shows scientific visualization, data-driven simulation, and space-system presentation |
+| [**VSP-CWE / Wetware Grid**](https://github.com/GareBear99/Virtual-Simulated-Physics-Capacity-Weighted-Engine) | Capacity-weighted simulation math layer | Shows formal simulation math, constrained movement/capacity systems, and authority models |
+| [**Robotics Master Controller**](https://github.com/GareBear99/Robotics-Master-Controller) | Robotics/prosthetics/artificial-muscle/exoskeleton research hub | Shows hardware-adjacent systems thinking and robotics-control planning |
+
+### Additional Portfolio Pages Already Included
+
+These project pages are preserved in this portfolio package and act as additional proof routes:
+
+`admension`, `aether`, `agi-photon-quantum-computing`, `arc-core`, `arc-lucifer-cleanroom-runtime`, `arc-rar`, `arc-spatial-engine`, `arc-turbo-os`, `banjoelectro`, `bassmaid`, `botfortress`, `broke-bot`, `chainmaid`, `charm-extension-bot`, `decagrid`, `edgestack-currency`, `freeeq8`, `freesampler`, `gbot`, `gluemaid`, `harvest`, `instrudio`, `lucid-terminal`, `luciferai`, `metermaid`, `mixmaid`, `multimaid`, `mythodic`, `neo-vectr-solar-sim`, `neolution`, `one-shot`, `paintmask`, `pap-forge-audio`, `phonk-producer-toolkit`, `proeq8`, `proto-agi`, `proto-synth-grid-engine`, `rag-command-center`, `riftascent`, `riftwave-suite`, `robotics-master-controller`, `seeded-universe-recreation-engine`, `spacemaid`, `sure`, `therum`, `tizwildin-aurora`, `tizwildin-chime`, `tizwildin-chroma`, `tizwildin-hub`, `tizwildin-obsidian`, `tizwildin-pharaoh`, `tizwildin-skyline`, `tt-101-handbook`, `vallis`, `vf-plexlab`, `vsp-cwe`, `whispergate`, `wurp`, `xylocore`.
+
+### Why This Portfolio Stands Out
+
+Compared to a normal developer portfolio, this ecosystem demonstrates:
+
+- real repo and release workflow experience instead of isolated screenshots
+- C++/JUCE audio plugin development and public submission campaigns
+- Python/JavaScript/Rust/C#/systems planning across multiple product classes
+- local-first AI architecture, state/receipt doctrine, and runtime lifecycle thinking
+- game/simulation systems with validators, debug flows, controller planning, and monetization logic
+- SEO/readme/docs/release/public-facing polish across many repos
+- business/product architecture: sponsor funnels, issue templates, monetization rules, funding links, and submission trackers
+- ability to explain complex systems in plain English for users, recruiters, sponsors, and maintainers
+
+### Hiring / Collaboration Signals
+
+This portfolio maps to multiple practical roles:
 
 - Systems Engineer
 - Audio DSP Developer
 - C++ / JUCE Plugin Developer
-- Simulation Engine Developer
+- AI Infrastructure / LLM Tooling Developer
 - Runtime / Validation Engineer
-- AI Infrastructure Engineer
+- Simulation Engine Developer
+- Game Systems Developer
+- Technical Writer / Documentation Engineer
 - Full-Stack Builder for technical products
 - Technical Founder / Founding Engineer
+- GitHub / SEO / Release Cleanup Specialist
 
-### Search and recruiter alignment
+Search alignment:
 
-`systems-engineering` `audio-dsp` `c-plus-plus` `juce` `javascript` `canvas2d` `simulation-engine`  
-`runtime-architecture` `ai-infrastructure` `deterministic-systems` `plugin-development`  
-`technical-founder` `full-stack` `robotics` `quant-finance`
-
----
-
-## Audio · TizWildin Plugin Ecosystem
-
-> Cross-platform DSP, instruments, effects, and runtime tooling.
-
-| Project | System Description |
-|---|---|
-| [**FreeEQ8**](https://github.com/GareBear99/FreeEQ8) | 8-band parametric EQ built in C++/JUCE. Includes linear phase processing, dynamic EQ, match EQ, M/S, oversampling, presets, and production-oriented DSP workflows. |
-| [**ProEQ8**](https://github.com/GareBear99/FreeEQ8) | 24-band commercial EQ architecture with expanded routing, saturation modes, A/B comparison, and higher-end workflow tooling. |
-| [**WURP**](https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE) | Motion-based sound design engine with formant morphing, corrosive saturation, sequenced movement, and reactive interface behavior. |
-| [**AETHER**](https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer) | Choir atmosphere designer focused on spectral bloom, cathedral resonance, and cinematic texture generation. |
-| [**Instrudio**](https://github.com/GareBear99/Instrudio) | Cross-platform instrument suite using a shared live-updating JSON core across web, plugin, and mobile targets. |
-| [**PaintMask**](https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin) | Paint-based audio processing system where visual shape and gesture drive sound behavior and MIDI interaction. |
-| [**WhisperGate**](https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin) | Procedural whisper and ritual atmosphere generator driven by interactive geometry and DSP processing. |
-| [**Therum**](https://github.com/GareBear99/Therum_JUCE-Plugin) | Theremin-style expressive instrument plugin designed around touchless melodic control. |
-| [**RiftWave Suite**](https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite) | Modular synthesis and waveform-generation suite for experimental tone design and synth development. |
-| [**FreeSampler**](https://github.com/GareBear99/FreeSampler_v0.3) | Lightweight sampler plugin for fast cross-platform sample playback workflows. |
-| [**TizWildin Hub**](https://github.com/GareBear99/TizWildinEntertainmentHUB) | Desktop plugin manager with update distribution, billing integration, seat management, and lifecycle tooling. |
-
----
-
-## AI & Developer Infrastructure
-
-| Project | System Description |
-|---|---|
-| [**Lucid Terminal**](https://github.com/GareBear99/Lucid-Terminal) | AI-native terminal application with local-first routing, authority-gated command handling, multi-model orchestration, and self-healing runtime structure. |
-| [**LuciferAI_Local**](https://github.com/GareBear99/LuciferAI_Local) | Local AI assistant and execution architecture with fallback cognition, operator-facing control, and model-linked runtime behavior. |
-| [**ARC-Core**](https://github.com/GareBear99/ARC-Core) | Real-time intelligence and event-correlation engine for detection of emerging signals, relationships, and operational patterns. |
-| [**ARC Spatial Engine**](https://github.com/GareBear99/A-real-time-spatial-signal-intelligence-engine) | Spatial signal intelligence system for RF/WiFi mapping, geospatial field rendering, and physics-informed propagation analysis. |
-| [**BotFortress**](https://botfortress.net) | Edge-hosted Discord bot deployment platform with global infrastructure, low-latency routing, and hosted automation workflows. |
-
----
-
-## Finance & Trading Systems
-
-### 💸 Liquidity & monetization infrastructure
-
-| Project | System Description |
-|---|---|
-| [**ADMENSION**](https://github.com/GareBear99/ADMENSION) · [live](https://garebear99.github.io/ADMENSION/) | Ad-revenue + liquidity platform: 154 ad placements, SENTINEL safety, SCAR continuity, EVE AI chatbot, 5 pools + Anunnaki Vault, smart contracts. |
-| [**VALLIS_Liquidity**](https://github.com/GareBear99/VALLIS_Liquidity) | Traffic hub + router that fronts the VALLIS ecosystem. Captures UTM / referrer / `adm` / seed params at the root domain and preserves them across redirects to ADMENSION or VALLIS, emitting `hub_hit` / `hub_redirect` events. |
-
-### 📈 ARC Trading Fleet — six public repos
-
-All six now public with live GitHub Pages docs sites, source, README, and the full ARC-Core event-and-receipt mapping.
-
-| Project | Source | Docs site |
-|---|---|---|
-| [**BrokeBot**](https://github.com/GareBear99/BrokeBot) — TRON funding-rate arbitrage (CEX, Python). Extreme-funding capture with ATR-sized stops, daily / streak kill-switches, JSONL structured logs. | [source](https://github.com/GareBear99/BrokeBot) | [garebear99.github.io/BrokeBot](https://garebear99.github.io/BrokeBot/) |
-| [**Charm**](https://github.com/GareBear99/Charm) — Autonomous Uniswap v3 spot bot on Base (Node.js) for ≤$12 micro-accounts. Mean-reversion bands, QuoterV2 slippage protection, dedicated-wallet pattern. | [source](https://github.com/GareBear99/Charm) | [garebear99.github.io/Charm](https://garebear99.github.io/Charm/) |
-| [**Harvest**](https://github.com/GareBear99/Harvest) — Multi-timeframe crypto research platform (15m/1h/4h), grid-search strategy discovery, blockchain-verified OHLCV, MetaMask CLI. | [source](https://github.com/GareBear99/Harvest) | [garebear99.github.io/Harvest](https://garebear99.github.io/Harvest/) |
-| [**One-Shot-Multi-Shot**](https://github.com/GareBear99/One-Shot-Multi-Shot) — Binary-options engine with 3-hearts risk lifecycle, adaptive stake ladder, hard $15/day loss cap. 40/40 tests passing. | [source](https://github.com/GareBear99/One-Shot-Multi-Shot) | [garebear99.github.io/One-Shot-Multi-Shot](https://garebear99.github.io/One-Shot-Multi-Shot/) |
-| [**DecaGrid**](https://github.com/GareBear99/DecaGrid) — Offline-first docs pack for a capital-ladder grid trading system. Whitepaper, runbook, DecaScore, execution & risk, universe, simulator, records, compliance. | [source](https://github.com/GareBear99/DecaGrid) | [garebear99.github.io/DecaGrid](https://garebear99.github.io/DecaGrid/) |
-| [**EdgeStack_Currency**](https://github.com/GareBear99/EdgeStack_Currency) — Canonical event-sourced multi-currency execution + edge-stacking engine spec. Immutable event ledger, FX conversion, reconciliation discipline. | [source](https://github.com/GareBear99/EdgeStack_Currency) | [garebear99.github.io/EdgeStack_Currency](https://garebear99.github.io/EdgeStack_Currency/) |
-
-### 🏠 Adjacent domain ops
-
-| Project | System Description |
-|---|---|
-| [**RAG Command Center**](https://github.com/GareBear99/RAG-Command-Center) | Canadian real estate intelligence platform for listings, deal scoring, mapping, CRM, and multi-source operational workflows. |
-
----
-
-## Games & Simulation Engines
-
-| Project | System Description |
-|---|---|
-| [**Neolution**](https://github.com/GareBear99/Neolution) | Deterministic rhythm engine on a TRON-style grid with audio-derived chart generation, controller support, and low-weight runtime design. |
-| [**RiftAscent**](https://github.com/GareBear99/RiftAscent) | Canvas-based action engine with prestige systems, procedural audio, validator-enforced flow control, and performance-first architecture. |
-| [**Seeded Universe Recreation Engine**](https://github.com/GareBear99/Seeded-Universe-Recreation-Engine) | Single-seed deterministic simulation from cosmological emergence through chemistry, biosphere, and lineage evolution. |
-| [**VSP-CWE**](https://github.com/GareBear99/Virtual-Simulated-Physics-Capacity-Weighted-Engine) | Computational substrate concept where geometry, capacity, authority, and movement are unified into one simulation logic field. |
-| [**Proto-Synth Grid Engine**](https://github.com/GareBear99/Proto-Synth_Grid_Engine) | Blueprint-driven simulation shell where space behaves like a filesystem and entities act as bounded autonomous executors. |
-| [**Neo-VECTR Solar Sim**](https://github.com/GareBear99/Neo-VECTR_Solar_Sim_NASA_Standard) | NASA-standard astronomy simulator focused on deterministic graph structure, catalog-driven truth packs, and galaxy-to-planet navigation. |
-
----
-
-## Research & Applied Systems
-
-| Project | System Description |
-|---|---|
-| [**Robotics Master Controller**](https://github.com/GareBear99/Robotics-Master-Controller) | Robotics research and systems-control hub covering prosthetics, artificial muscles, exoskeleton concepts, and fabrication planning. |
-| [**TT-101 Handbook**](https://github.com/GareBear99/TT-101_Handbook) | Conceptual continuity framework for preserving and organizing knowledge across time-oriented scenarios. |
-
-### 🔮 ARC-Core roadmap (research-grade scaffolds)
-
-Four R&D repos explicitly positioned as ARC-Core's next integration targets. Each extends the kernel's event / entity / edge / proposal / receipt primitives into a new domain. Full per-repo integration contracts in [ARC-Core ECOSYSTEM.md § Future development plans](https://github.com/GareBear99/ARC-Core/blob/main/ECOSYSTEM.md#-future-development-plans--arc-core-roadmap).
-
-| Project | Roadmap thesis |
-|---|---|
-| [**ARC-Turbo-OS**](https://github.com/GareBear99/ARC-Turbo-OS) | Deterministic execution runtime targeting 2×–100× OS speedups via canonical problem graphs + resolved-output reuse. ARC-Core becomes the truth-of-what-ran layer behind the speedups. |
-| [**Proto-AGI**](https://github.com/GareBear99/Proto-AGI) | Persistent memory-backed tool-using proto-AGI loop. ARC-Core becomes the substrate for append-only memory, tool calls as proposals, tool returns as receipts, session replay, tamper-evident no-forged-history. |
-| [**AGI_Photon-Quantum-Computing**](https://github.com/GareBear99/AGI_Photon-Quantum-Computing) | Photon AGI thinking core + SSOT bot lab production dossier. ARC-Core's SSOT primitive maps directly; promotion follows LLMBuilder's Gate-v2 flow extended to the photon lane. |
-| [**A-real-time-spatial-signal-intelligence-engine**](https://github.com/GareBear99/A-real-time-spatial-signal-intelligence-engine) | Google Earth + WiFi / RF + device tracking + physics sim + satellite imagery. Natural upgrade path for ARC-Core's existing geospatial primitives (~70% of doctrine requirements already covered). |
-
----
+`systems-engineering` `audio-dsp` `juce` `vst3` `au` `c-plus-plus` `python` `javascript` `rust` `csharp` `canvas2d` `simulation-engine` `runtime-architecture` `ai-infrastructure` `local-first-ai` `deterministic-systems` `plugin-development` `game-systems` `robotics` `quant-finance` `technical-founder` `open-source-portfolio`
 
 ## Verified Production Signals
 
