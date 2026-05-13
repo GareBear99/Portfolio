@@ -47,6 +47,7 @@ This repository is the **public portfolio authority node** for Gary Doman / Neo-
 - [Games & Simulation Engines](#games--simulation-engines)
 - [Research & Applied Systems](#research--applied-systems)
 - [Contact](#contact)
+- [Full Project Ecosystem Index](docs/PROJECT_ECOSYSTEM_INDEX.md)
 
 ---
 
@@ -75,6 +76,8 @@ Micro-sponsor requests start at **$1+** when the task is clear, scoped, respectf
 4. I will accept, decline, or ask for tighter scope before any larger work begins.
 
 See [SERVICES.md](SERVICES.md), [SPONSOR_TASKS.md](SPONSOR_TASKS.md), and [ISSUE_WORKFLOW.md](ISSUE_WORKFLOW.md) for the full workflow.
+
+For the complete repo/project proof map, see [docs/PORTFOLIO_PROOF.md](docs/PORTFOLIO_PROOF.md) and [docs/PROJECT_ECOSYSTEM_INDEX.md](docs/PROJECT_ECOSYSTEM_INDEX.md).
 
 ### Plain-English value
 

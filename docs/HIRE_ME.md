@@ -34,3 +34,7 @@ I am available for:
 ## Plain-English value
 
 I help technical projects become easier to understand, easier to use, easier to ship, and easier to trust.
+
+## Proof map
+
+For a full view of the repos, project pages, and additional tracked systems behind this portfolio, see [PROJECT_ECOSYSTEM_INDEX.md](PROJECT_ECOSYSTEM_INDEX.md) and [PORTFOLIO_PROOF.md](PORTFOLIO_PROOF.md).

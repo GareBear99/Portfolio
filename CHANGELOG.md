@@ -32,3 +32,10 @@ format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Added issue templates for sponsored tasks, repo reviews, and audio plugin feedback.
 - Updated homepage CTAs, contact routing, and funding links for issue-based sponsored work.
 
+
+## 2026-05-13 - Expanded ecosystem proof index
+
+- Added `docs/PROJECT_ECOSYSTEM_INDEX.md` with full project-page coverage and additional known repository tracks.
+- Expanded `docs/PORTFOLIO_PROOF.md` so audio, AI/runtime, simulation, finance, research, sample-pack, and additional repo work are all represented.
+- Linked the full proof map from `README.md` and `docs/HIRE_ME.md`.
+- Preserved the sponsored-work and $1+ micro-task workflow while making the proof section more complete.
