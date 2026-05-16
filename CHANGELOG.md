@@ -7,6 +7,15 @@
 
 # Changelog
 
+## 2026-05-16 — Public Submission Tracker
+
+- Added `submissions.html` as a public portfolio submission tracker.
+- Added `docs/SUBMISSION_TRACKER.md` with canonical identity strings, submitted PRs, copy/paste entry formats, and next target queue.
+- Added homepage submission proof cards for `developer-portfolios` PR #3650 and `portfolio-ideas` PR #659.
+- Added submissions navigation and sitemap entry for discoverability.
+- Updated README routing to include public submission tracking.
+
+
 All notable changes to the Portfolio site are documented here. The
 format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 

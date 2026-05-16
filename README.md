@@ -1,7 +1,7 @@
 > 💼 **Available for sponsored work, repo reviews, technical fixes, documentation cleanup, audio/plugin feedback, and micro-tasks.**
 > Open an [issue](https://github.com/GareBear99/Portfolio/issues/new/choose) for clear scoped requests. Micro-sponsor tasks start at **$1+** through GitHub Sponsors, Ko-fi, or Buy Me a Coffee.
 
-# Neo-VECTR · Gary Doman · TizWildin Entertainment
+# Neo-VECTR · Gary Doman · GareBear99 · GareBearProductionz · TizWildin Entertainment
 
 <div align="center">
 
@@ -47,7 +47,22 @@ This repository is the **public portfolio authority node** for Gary Doman / Neo-
 - [Games & Simulation Engines](#games--simulation-engines)
 - [Research & Applied Systems](#research--applied-systems)
 - [Contact](#contact)
+- [Submission Tracker](submissions.html)
+- [Submission Tracker Markdown](docs/SUBMISSION_TRACKER.md)
 - [Full Project Ecosystem Index](docs/PROJECT_ECOSYSTEM_INDEX.md)
+
+---
+
+## Public Portfolio Submissions
+
+This portfolio now tracks public directory submissions and portfolio-list PRs so external reviewers can see how the portfolio is being distributed and reviewed.
+
+| Directory / List | Status | Submission | Identity Used | Link Target |
+|---|---|---|---|---|
+| developer-portfolios | Open PR | [emmabostian/developer-portfolios #3650](https://github.com/emmabostian/developer-portfolios/pull/3650) | Gary Doman / GareBear99 / GareBearProductionz / TizWildin | TizWildinEntertainmentHUB |
+| portfolio-ideas | Open PR | [Evavic44/portfolio-ideas #659](https://github.com/Evavic44/portfolio-ideas/pull/659) | Gary Doman / GareBear99 / GareBearProductionz / TizWildin | Portfolio hub + GitHub repo |
+
+See the public [Submission Tracker](submissions.html) and [docs/SUBMISSION_TRACKER.md](docs/SUBMISSION_TRACKER.md) for the live submission queue, copy/paste entry formats, and next target list.
 
 ---
 
