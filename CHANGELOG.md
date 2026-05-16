@@ -11,7 +11,7 @@
 
 - Added `submissions.html` as a public portfolio submission tracker.
 - Added `docs/SUBMISSION_TRACKER.md` with canonical identity strings, submitted PRs, copy/paste entry formats, and next target queue.
-- Added homepage submission proof cards for `developer-portfolios` PR #3650 and `portfolio-ideas` PR #659.
+- Added homepage submission proof cards for `developer-portfolios` PR #3650 as merged and `portfolio-ideas` PR #660 as open / mergeable.
 - Added submissions navigation and sitemap entry for discoverability.
 - Updated README routing to include public submission tracking.
 
@@ -55,3 +55,5 @@ format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Expanded `docs/PORTFOLIO_PROOF.md` so audio, AI/runtime, simulation, finance, research, sample-pack, and additional repo work are all represented.
 - Linked the full proof map from `README.md` and `docs/HIRE_ME.md`.
 - Preserved the sponsored-work and $1+ micro-task workflow while making the proof section more complete.
+- Corrected portfolio listing status: `developer-portfolios` PR #3650 is merged / featured; `portfolio-ideas` active replacement is PR #660.
+

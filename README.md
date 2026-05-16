@@ -59,8 +59,11 @@ This portfolio now tracks public directory submissions and portfolio-list PRs so
 
 | Directory / List | Status | Submission | Identity Used | Link Target |
 |---|---|---|---|---|
-| developer-portfolios | Open PR | [emmabostian/developer-portfolios #3650](https://github.com/emmabostian/developer-portfolios/pull/3650) | Gary Doman / GareBear99 / GareBearProductionz / TizWildin | TizWildinEntertainmentHUB |
-| portfolio-ideas | Open PR | [Evavic44/portfolio-ideas #659](https://github.com/Evavic44/portfolio-ideas/pull/659) | Gary Doman / GareBear99 / GareBearProductionz / TizWildin | Portfolio hub + GitHub repo |
+| developer-portfolios | Featured / merged | [emmabostian/developer-portfolios #3650](https://github.com/emmabostian/developer-portfolios/pull/3650) | Gary Doman / GareBear99 / GareBearProductionz / TizWildin | TizWildinEntertainmentHUB |
+| portfolio-ideas | Open PR / mergeable | [Evavic44/portfolio-ideas #660](https://github.com/Evavic44/portfolio-ideas/pull/660) | Gary Doman / GareBear99 / GareBearProductionz / TizWildin | Portfolio + GitHub repo |
+
+
+**Current listing proof:** Featured on `emmabostian/developer-portfolios` through merged PR #3650. That repository is a major curated developer portfolio list with 22k+ GitHub stars. Active follow-up submission: `Evavic44/portfolio-ideas` PR #660, currently open / mergeable.
 
 See the public [Submission Tracker](submissions.html) and [docs/SUBMISSION_TRACKER.md](docs/SUBMISSION_TRACKER.md) for the live submission queue, copy/paste entry formats, and next target list.
 

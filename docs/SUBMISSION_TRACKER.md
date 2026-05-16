@@ -24,8 +24,14 @@ Gary Doman / GareBear99 / GareBearProductionz / TizWildin
 
 | Directory / List | Status | Submission | Entry Style | Link Target |
 |---|---|---|---|---|
-| developer-portfolios | Open PR | https://github.com/emmabostian/developer-portfolios/pull/3650 | Single markdown list entry | TizWildinEntertainmentHUB |
-| portfolio-ideas | Open PR | https://github.com/Evavic44/portfolio-ideas/pull/659 | Portfolio table row | Main Portfolio + GitHub repo |
+| developer-portfolios | Featured / merged | https://github.com/emmabostian/developer-portfolios/pull/3650 | Merged into master; 22k+ star curated developer portfolio list | TizWildinEntertainmentHUB |
+| portfolio-ideas | Open PR / mergeable | https://github.com/Evavic44/portfolio-ideas/pull/660 | Portfolio table row | Main Portfolio + GitHub repo |
+
+
+## Validated Listing Status
+
+- **Developer Portfolios** (`emmabostian/developer-portfolios`) — **Featured / merged**. PR #3650 was merged into `master`. Public positioning: major curated developer portfolio list with **22k+ GitHub stars**.
+- **Portfolio Ideas** (`Evavic44/portfolio-ideas`) — **Open / mergeable** replacement PR #660. The older PR #659 was closed because the submitted link was too broad; #660 uses the dedicated Portfolio repo and GitHub Pages site.
 
 ## Copy/Paste Listing Variants
 
@@ -68,6 +74,6 @@ Gary Doman / GareBear99 / GareBearProductionz / TizWildin
 
 ## Current Public Proof
 
-- `developer-portfolios` PR opened: https://github.com/emmabostian/developer-portfolios/pull/3650
-- `portfolio-ideas` PR opened: https://github.com/Evavic44/portfolio-ideas/pull/659
+- `developer-portfolios` PR #3650 merged into master: https://github.com/emmabostian/developer-portfolios/pull/3650
+- `portfolio-ideas` replacement PR #660 open and mergeable: https://github.com/Evavic44/portfolio-ideas/pull/660
 - Main portfolio authority page added: `submissions.html`
