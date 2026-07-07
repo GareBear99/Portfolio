@@ -4,7 +4,7 @@ This is the broad coverage index for the portfolio. It separates **portfolio pag
 
 > Scope note: portfolio-page entries link to local `projects/*.html` pages. Additional repository tracks link to public GitHub routes where a stable route is known; concept-only tracks are labeled as such rather than presented as finished production code.
 
-## Portfolio pages currently included (64)
+## Portfolio pages currently included (69)
 
 ### AI & Developer Infrastructure (9)
 
@@ -20,19 +20,31 @@ This is the broad coverage index for the portfolio. It separates **portfolio pag
 | Arc-RAR | [projects/arc-rar.html](../projects/arc-rar.html) | Cross-platform archive and portability layer for moving ARC-era packages and runtime assets cleanly between systems. | Packaging, Portability, Cross-platform |
 | arc-lucifer-cleanroom-runtime | [projects/arc-lucifer-cleanroom-runtime.html](../projects/arc-lucifer-cleanroom-runtime.html) | Deterministic local runtime for directives, receipts, memory, and long-running GGUF-backed operator flows. | Python, Runtime Validation, Autonomous Systems |
 
+
+### HUB / Distribution / Public Proof
+
+| Project | Route | Proof point | Tags |
+|---|---|---|---|
+| TizWildin Entertainment HUB | [projects/tizwildin-hub.html](../projects/tizwildin-hub.html) | Public source-of-truth spine for free audio plugins, sample packs, itch inventory, release proof, JSON/LLM indexes, ARC routes, and backend/licensing docs. | HUB, GitHub Pages, JSON Index, ARC Routes |
+| GareBearProductionz Itch Inventory | [projects/game-asset-store-itch-inventory.html](../projects/game-asset-store-itch-inventory.html) | Buyer-facing route for public itch asset packs, live SVG backdrops, procedural VFX generators, sprite tools, icons, sigils, and free lead magnets. | Itch, Game Assets, SVG, Pixel Art |
+| TizWildin Release Vault | [projects/tizwildin-release-vault.html](../projects/tizwildin-release-vault.html) | Release proof and catalog routing surface for distributed tracks, monetized releases, and official TizWildin music catalog status. | Release Proof, Music, Catalog |
+| Awesome Audio Plugins Dev | [projects/awesome-audio-plugins-dev.html](../projects/awesome-audio-plugins-dev.html) | Canonical start-here list for JUCE, VST3/AU, DSP, open-source plugins, FreeEQ8, FreeVox8, and audio developer visibility. | Awesome List, Audio Discovery, SEO |
+| Voxel Audio | [projects/voxel-audio.html](../projects/voxel-audio.html) | Local-first browser audio visualizer and export tool for track artwork binding, SoundCloud-style layouts, and deterministic FFmpeg MP4 render kits. | Visualizer, Creator Tool, FFmpeg |
+| FreeVox8 | [projects/freevox8.html](../projects/freevox8.html) | Spectral vocoder, ghost-freeze resynthesis, morph, and dynamic spectral masking plugin route. | C++, JUCE, Spectral DSP |
+
 ### Audio DSP (23)
 
 | Project | Route | Proof point | Tags |
 |---|---|---|---|
 | AETHER | [projects/aether.html](../projects/aether.html) | Choir atmosphere designer focused on spectral bloom, cathedral resonance, and cinematic texture generation. | C++, JUCE, Atmospheric DSP |
 | FreeEQ8 | [projects/freeeq8.html](../projects/freeeq8.html) | 8-band parametric EQ built in C++/JUCE with linear phase processing, dynamic EQ, match EQ, M/S tools, oversampling, presets, and production-oriented DSP workflows. | C++, JUCE, DSP, Audio Plugins |
+| FreeVox8 | [projects/freevox8.html](../projects/freevox8.html) | JUCE-based spectral vocoder, ghost-freeze resynthesis, morph, and dynamic spectral masking plugin route for vocals, synths, drums, and experimental sound design. | C++, JUCE, Spectral DSP, Vocoder |
 | FreeSampler | [projects/freesampler.html](../projects/freesampler.html) | Lightweight sampler plugin for fast cross-platform sample playback workflows. | JUCE, Sampler, Cross-platform |
 | Instrudio | [projects/instrudio.html](../projects/instrudio.html) | Cross-platform instrument suite using a shared live-updating JSON core across web, plugin, and mobile targets. | Audio, Cross-platform, JSON Core |
 | PaintMask | [projects/paintmask.html](../projects/paintmask.html) | Paint-based audio processing system where visual shape and gesture drive sound behavior and MIDI interaction. | JUCE, DSP, MIDI |
 | ProEQ8 | [projects/proeq8.html](../projects/proeq8.html) | 24-band commercial EQ architecture with expanded routing, saturation modes, A/B comparison, and higher-end workflow tooling. | C++, JUCE, DSP |
 | RiftWave Suite | [projects/riftwave-suite.html](../projects/riftwave-suite.html) | Modular synthesis and waveform-generation suite for experimental tone design and synth development. | Synthesis, Audio DSP |
 | Therum | [projects/therum.html](../projects/therum.html) | Theremin-style expressive instrument plugin designed around touchless melodic control. | JUCE, Instrument Plugin |
-| TizWildin Hub | [projects/tizwildin-hub.html](../projects/tizwildin-hub.html) | Desktop plugin manager with update distribution, billing integration, seat management, and lifecycle tooling. | Desktop, Distribution, Billing |
 | WhisperGate | [projects/whispergate.html](../projects/whispergate.html) | Procedural whisper and ritual atmosphere generator driven by interactive geometry and DSP processing. | JUCE, Procedural Audio, DSP |
 | WURP | [projects/wurp.html](../projects/wurp.html) | Motion-based sound design engine with formant morphing, corrosive saturation, sequenced movement, and reactive interface behavior. | C++, JUCE, Sound Design |
 | XyloCore | [projects/xylocore.html](../projects/xylocore.html) | JUCE xylophone instrument plugin with a production-ready project scaffold, a polished custom UI, embedded factory presets, and a hybrid engine path. | C++, JUCE, Instrument Plugin, Mallet Synth |

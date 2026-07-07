@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://garebear99.github.io/Portfolio/</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-<url><loc>https://garebear99.github.io/Portfolio/projects.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url>P26-07-07</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url>P26-07-07</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
 <url><loc>https://garebear99.github.io/Portfolio/submissions.html</loc><lastmod>2026-05-16</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-<url><loc>https://garebear99.github.io/Portfolio/stack.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url>P26-07-07</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 <url><loc>https://garebear99.github.io/Portfolio/review.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
 <url><loc>https://garebear99.github.io/Portfolio/projects/admension.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 <url><loc>https://garebear99.github.io/Portfolio/projects/aether.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -39,7 +39,7 @@
 <url><loc>https://garebear99.github.io/Portfolio/projects/seeded-universe-recreation-engine.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 <url><loc>https://garebear99.github.io/Portfolio/projects/sure.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 <url><loc>https://garebear99.github.io/Portfolio/projects/therum.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://garebear99.github.io/Portfolio/projects/tizwildin-hub.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url>P26-07-07</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 <url><loc>https://garebear99.github.io/Portfolio/projects/tt-101-handbook.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 <url><loc>https://garebear99.github.io/Portfolio/projects/vallis.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 <url><loc>https://garebear99.github.io/Portfolio/projects/vsp-cwe.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -70,4 +70,10 @@
 <url><loc>https://garebear99.github.io/Portfolio/projects/free-future-bass-producer-kit.html</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 <url><loc>https://garebear99.github.io/Portfolio/projects/free-drum-producer-kit.html</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 <url><loc>https://garebear99.github.io/Portfolio/projects/phonk-producer-toolkit.html</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://garebear99.github.io/Portfolio/projects/freevox8.html</loc><lastmod>2026-07-07</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+<url><loc>https://garebear99.github.io/Portfolio/projects/voxel-audio.html</loc><lastmod>2026-07-07</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+<url><loc>https://garebear99.github.io/Portfolio/projects/tizwildin-release-vault.html</loc><lastmod>2026-07-07</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+<url><loc>https://garebear99.github.io/Portfolio/projects/awesome-audio-plugins-dev.html</loc><lastmod>2026-07-07</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+<url><loc>https://garebear99.github.io/Portfolio/projects/game-asset-store-itch-inventory.html</loc><lastmod>2026-07-07</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+<url><loc>https://garebear99.github.io/Portfolio/docs/HUB_PORTFOLIO_SYNC.md</loc><lastmod>2026-07-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 </urlset>

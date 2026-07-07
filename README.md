@@ -156,6 +156,24 @@ This README now carries the ecosystem directly instead of hiding the proof in a 
 | [**AGI Photon Quantum Computing**](https://github.com/GareBear99/AGI_Photon-Quantum-Computing) | Photonic compute / binary-cell / lab orchestration concept | Shows experimental compute theory and technical documentation range |
 | [**TT-101 Handbook**](https://github.com/GareBear99/TT-101_Handbook) | Continuity / emergent-life / communication doctrine | Shows ethics, long-horizon knowledge preservation, and speculative systems writing |
 
+### Portfolio ↔ TizWildin HUB Sync
+
+The portfolio and live HUB now have distinct jobs:
+
+| Surface | Job | Primary route |
+|---|---|---|
+| **Portfolio** | Recruiter/sponsor proof-of-work, project pages, resume, services, submission proof | [Portfolio site](https://garebear99.github.io/Portfolio/) |
+| **TizWildin Entertainment HUB** | Public product/distribution/source-of-truth spine for plugins, packs, itch inventory, release proof, JSON/LLM indexes, ARC routes, and API/licensing docs | [Live HUB](https://garebear99.github.io/TizWildinEntertainmentHUB/) |
+
+New portfolio routes added from the HUB surface:
+
+- [TizWildin Entertainment HUB](projects/tizwildin-hub.html)
+- [GareBearProductionz Itch Inventory](projects/game-asset-store-itch-inventory.html)
+- [TizWildin Release Vault](projects/tizwildin-release-vault.html)
+- [Awesome Audio Plugins Dev](projects/awesome-audio-plugins-dev.html)
+- [Voxel Audio](projects/voxel-audio.html)
+- [FreeVox8](projects/freevox8.html)
+
 ### Audio DSP / JUCE / Plugin Ecosystem
 
 | Project / Repo | Public Role | Why It Matters |
@@ -172,7 +190,7 @@ This README now carries the ecosystem directly instead of hiding the proof in a 
 | [**WURP**](https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE) | Toxic motion / formant / saturation engine | Shows motion-to-sound design, modulation systems, and branded plugin concepting |
 | [**AETHER**](https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer) | Choir atmosphere / cinematic texture designer | Shows sound-design tooling and atmospheric instrument planning |
 | [**RiftWave Suite**](https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite) | Modular synth / waveform suite | Shows synth architecture and modular product bundling |
-| [**TizWildin Entertainment Hub**](https://github.com/GareBear99/TizWildinEntertainmentHUB) | Plugin hub, update dashboard, release router, audio ecosystem front door | Shows product distribution, user-facing landing pages, and plugin ecosystem routing |
+| [**TizWildin Entertainment HUB**](https://github.com/GareBear99/TizWildinEntertainmentHUB) · [portfolio page](projects/tizwildin-hub.html) | Public source-of-truth spine: plugin/product routes, sample-pack discovery, itch inventory, release proof, JSON/LLM indexes, ARC routes, and backend/licensing docs | Shows product distribution, SEO/crawler architecture, machine-readable proof, release routing, storefront routing, and source-spine governance |
 | [**Voxel_Audio**](https://github.com/GareBear99/Voxel_Audio) | Voxel/RGB audio visualizer and export platform | Shows audio-reactive visuals, export flow design, browser/server FFmpeg planning, and creator tooling |
 | [**SoundRecordBoard**](https://github.com/GareBear99/SoundRecordBoard) | Controller-driven soundboard and recording utility | Shows PyQt/Pygame/tooling, creator workflow, and practical audio utility development |
 

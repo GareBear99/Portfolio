@@ -47,7 +47,7 @@ See [PROJECT_ECOSYSTEM_INDEX.md](PROJECT_ECOSYSTEM_INDEX.md) for the complete ro
 | [ProEQ8](../projects/proeq8.html) | 24-band commercial EQ architecture with expanded routing, saturation modes, A/B comparison, and higher-end workflow tooling. |
 | [RiftWave Suite](../projects/riftwave-suite.html) | Modular synthesis and waveform-generation suite for experimental tone design and synth development. |
 | [Therum](../projects/therum.html) | Theremin-style expressive instrument plugin designed around touchless melodic control. |
-| [TizWildin Hub](../projects/tizwildin-hub.html) | Desktop plugin manager with update distribution, billing integration, seat management, and lifecycle tooling. |
+| [TizWildin Entertainment HUB](../projects/tizwildin-hub.html) | Public source-of-truth spine for free audio plugins, sample packs, itch inventory, release proof, JSON/LLM indexes, ARC routes, and HUB backend/licensing docs. |
 | [WhisperGate](../projects/whispergate.html) | Procedural whisper and ritual atmosphere generator driven by interactive geometry and DSP processing. |
 | [WURP](../projects/wurp.html) | Motion-based sound design engine with formant morphing, corrosive saturation, sequenced movement, and reactive interface behavior. |
 | [XyloCore](../projects/xylocore.html) | JUCE xylophone instrument plugin with a production-ready project scaffold, a polished custom UI, embedded factory presets, and a hybrid engine path. |
@@ -188,3 +188,15 @@ This proof map supports paid or sponsored requests in these lanes:
 - bug-triage strategy
 - release/submission preparation
 - small implementation guidance
+
+
+## TizWildin HUB sync proof
+
+| Route | Proof point |
+|---|---|
+| [TizWildin Entertainment HUB](../projects/tizwildin-hub.html) | Rewritten portfolio page now matches the live HUB as a public source-of-truth spine: plugin/product routes, JSON/LLM indexes, ARC routes, itch inventory, release proof, and backend/licensing docs. |
+| [GareBearProductionz Itch Inventory](../projects/game-asset-store-itch-inventory.html) | Portfolio now exposes the game-asset storefront and product catalog route instead of hiding it only in the external HUB. |
+| [TizWildin Release Vault](../projects/tizwildin-release-vault.html) | Music/release proof is separated from engineering pages and can be linked directly. |
+| [Awesome Audio Plugins Dev](../projects/awesome-audio-plugins-dev.html) | Canonical audio-discovery/start-here list is visible as a portfolio proof route. |
+| [Voxel Audio](../projects/voxel-audio.html) | Visualizer/export tooling now has its own page. |
+| [FreeVox8](../projects/freevox8.html) | Missing HUB-visible spectral audio plugin route added to the portfolio. |
