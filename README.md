@@ -400,7 +400,7 @@ This repository is the canonical public portfolio and authority hub for related 
 
 ## Contact
 
-- **Resume:** [Gary_Richard_Doman_Resume.pdf](./Gary_Richard_Doman_Resume.pdf)
+- **Resume:** [PDF](./Gary_Richard_Doman_Resume.pdf) · [DOCX](./Gary_Richard_Doman_Resume.docx)
 - **Email:** gdoman99@gmail.com · neovectr.inc@gmail.com
 - **GitHub:** [GareBear99](https://github.com/GareBear99)
 - **BotFortress:** [botfortress.net](https://botfortress.net)
