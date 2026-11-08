@@ -170,7 +170,7 @@ New portfolio routes added from the HUB surface:
 - [TizWildin Entertainment HUB](projects/tizwildin-hub.html)
 - [GareBearProductionz Itch Inventory](projects/game-asset-store-itch-inventory.html)
 - [TizWildin Release Vault](projects/tizwildin-release-vault.html)
-- [Awesome Audio Plugins Dev](projects/awesome-audio-plugins-dev.html)
+- [Awesome Audio Plugins Dev](projects/awesome-audio-plugins-dev.html) · [GitHub list](https://github.com/GareBear99/awesome-audio-plugins-dev)
 - [Voxel Audio](projects/voxel-audio.html)
 - [FreeVox8](projects/freevox8.html)
 
@@ -228,7 +228,7 @@ New portfolio routes added from the HUB surface:
 | [**BotFortress**](https://botfortress.net) | Edge-hosted Discord bot deployment platform | Shows production web deployment, infrastructure, automation, and platform design |
 | [**ADMENSION**](https://github.com/GareBear99/ADMENSION) · [live](https://garebear99.github.io/ADMENSION/) | Ad-funded liquidity/minigame/product shell with SENTINEL/SCAR/EVE layers | Shows monetization architecture, compliance-minded UX, funnel design, and public product packaging |
 | [**VALLIS / VALLIS Liquidity**](projects/vallis.html) | Traffic router, lore/brand layer, liquidity/faucet/ad architecture | Shows platform monetization, traffic routing, treasury/risk rules, and product ecosystem design |
-| [**URA-CC / CouchController**](https://github.com/GareBear99/URA-CC) | Mobile-first PC remote-control concept: Windows host, Android client, LAN/WebRTC, thumb-dial mouse | Shows Rust/Flutter/WebRTC product planning and mobile-first UX design |
+| [**URA-CC / CouchController**](https://github.com/GareBear99/URA-CC_UniversalRemoteAccess) | Mobile-first PC remote-control concept: Windows host, Android client, LAN/WebRTC, thumb-dial mouse | Shows Rust/Flutter/WebRTC product planning and mobile-first UX design |
 | [**AI Screenshot Attachment**](https://github.com/GareBear99/AI-Screenshot-Attachment) | macOS browser screenshot CLI/helper for AI agents, QA, and visual capture | Shows practical automation utilities, macOS scripting, repo packaging, and GitHub-ready documentation |
 | [**Charm Extension Bot**](projects/charm-extension-bot.html) | Browser/extension automation direction | Shows extension/bot surface planning |
 | [**SURE**](projects/sure.html) | Software/release/product concept | Shows experimental product packaging and portfolio breadth |
@@ -406,7 +406,7 @@ This repository is the canonical public portfolio and authority hub for related 
 - **BotFortress:** [botfortress.net](https://botfortress.net)
 - **ADMENSION:** [garebear99.github.io/ADMENSION](https://garebear99.github.io/ADMENSION/)
 - **TizWildin Hub:** [garebear99.github.io/TizWildinEntertainmentHUB](https://garebear99.github.io/TizWildinEntertainmentHUB/)
-- **ARC Trading Fleet docs:** [BrokeBot](https://garebear99.github.io/BrokeBot/) · [Charm](https://garebear99.github.io/Charm/) · [Harvest](https://garebear99.github.io/Harvest/) · [One-Shot-Multi-Shot](https://garebear99.github.io/One-Shot-Multi-Shot/) · [DecaGrid](https://garebear99.github.io/DecaGrid/) · [EdgeStack_Currency](https://garebear99.github.io/EdgeStack_Currency/)
+- **ARC Trading Fleet docs:** [BrokeBot](https://github.com/GareBear99/BrokeBot) · [Charm](https://garebear99.github.io/Charm/) · [Harvest](https://garebear99.github.io/Harvest/) · [One-Shot-Multi-Shot](https://github.com/GareBear99/One-Shot-Multi-Shot) · [DecaGrid](https://garebear99.github.io/DecaGrid/) · [EdgeStack_Currency](https://garebear99.github.io/EdgeStack_Currency/)
 
 ---
 

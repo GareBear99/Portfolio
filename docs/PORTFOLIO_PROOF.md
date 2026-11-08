@@ -142,9 +142,9 @@ These are important repo/project tracks that should stay visible even when they 
 
 | Repo / Track | Why it matters |
 |---|---|
-| [Wraith Eternal](https://github.com/GareBear99/Wraith-Eternal) | Dark survival roguelite / arena endurance project with visible mutation skills, wave bosses, and music-linked milestones. |
-| [M.O.M: Grounded Edition](https://github.com/GareBear99/MOM-Grounded-Edition) | Witness/testimony-driven horror/social systems design with non-omniscient AI, puppet detection, verified tattling, and hunt prioritization. |
-| [SlimeVeil](https://github.com/GareBear99/SlimeVeil) | Platformer/world project with village intro, checkpoint/treasure room planning, prestige loops, and horror-comedy tone. |
+| [Wraith Eternal](../projects/mythodic.html) | Dark survival roguelite / arena endurance project with visible mutation skills, wave bosses, and music-linked milestones. |
+| [M.O.M: Grounded Edition](../projects/mythodic.html) | Witness/testimony-driven horror/social systems design with non-omniscient AI, puppet detection, verified tattling, and hunt prioritization. |
+| [SlimeVeil](../projects/mythodic.html) | Platformer/world project with village intro, checkpoint/treasure room planning, prestige loops, and horror-comedy tone. |
 
 ### Native Tools / Archive Systems
 
@@ -158,7 +158,7 @@ These are important repo/project tracks that should stay visible even when they 
 | Repo / Track | Why it matters |
 |---|---|
 | [AI Screenshot Attachment](https://github.com/GareBear99/AI-Screenshot-Attachment) | macOS browser screenshot CLI / AI agent screenshot helper packaged with GitHub-ready repo docs and release checklist. |
-| [URA-CC / CouchController](https://github.com/GareBear99/URA-CC) | Universal Remote Access concept: Windows host + Android client + LAN-first live desktop control from phone with thumb-dial mouse. |
+| [URA-CC / CouchController](https://github.com/GareBear99/URA-CC_UniversalRemoteAccess) | Universal Remote Access concept: Windows host + Android client + LAN-first live desktop control from phone with thumb-dial mouse. |
 | [SoundRecordBoard](https://github.com/GareBear99/SoundRecordBoard) | Controller-driven soundboard / recording utility with PyQt, pygame, serial input, and add-on/plugin settings architecture. |
 
 ## What this proves to non-technical visitors
